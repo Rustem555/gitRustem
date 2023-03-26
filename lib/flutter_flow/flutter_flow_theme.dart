@@ -41,6 +41,8 @@ abstract class FlutterFlowTheme {
 
   late Color primaryBtnText;
   late Color lineColor;
+  late Color customColor1;
+  late Color blueText;
 
   String get title1Family => typography.title1Family;
   TextStyle get title1 => typography.title1;
@@ -72,6 +74,8 @@ class LightModeTheme extends FlutterFlowTheme {
 
   late Color primaryBtnText = Color(0xFFFFFFFF);
   late Color lineColor = Color(0xFFE0E3E7);
+  late Color customColor1 = Color(0xFFC8B6F1);
+  late Color blueText = Color(0xFF080468);
 }
 
 abstract class Typography {
@@ -124,9 +128,9 @@ class ThemeTypography extends Typography {
         fontWeight: FontWeight.w500,
         fontSize: 22.0,
       );
-  String get subtitle2Family => 'Poppins';
+  String get subtitle2Family => 'Lora';
   TextStyle get subtitle2 => GoogleFonts.getFont(
-        'Poppins',
+        'Lora',
         color: theme.secondaryText,
         fontWeight: FontWeight.w500,
         fontSize: 16.0,
@@ -148,17 +152,19 @@ class ThemeTypography extends Typography {
 }
 
 class DarkModeTheme extends FlutterFlowTheme {
-  late Color primaryColor = const Color(0xFF4B39EF);
-  late Color secondaryColor = const Color(0xFF39D2C0);
+  late Color primaryColor = const Color(0xFFFCE9E8);
+  late Color secondaryColor = const Color(0xFF363AA5);
   late Color tertiaryColor = const Color(0xFFEE8B60);
   late Color alternate = const Color(0xFFFF5963);
-  late Color primaryBackground = const Color(0xFF1A1F24);
-  late Color secondaryBackground = const Color(0xFF101213);
-  late Color primaryText = const Color(0xFFFFFFFF);
-  late Color secondaryText = const Color(0xFF95A1AC);
+  late Color primaryBackground = const Color(0xFFF1F4F8);
+  late Color secondaryBackground = const Color(0xFFFFFFFF);
+  late Color primaryText = const Color(0xFF101213);
+  late Color secondaryText = const Color(0xFF57636C);
 
   late Color primaryBtnText = Color(0xFFFFFFFF);
-  late Color lineColor = Color(0xFF22282F);
+  late Color lineColor = Color(0xFFE0E3E7);
+  late Color customColor1 = Color(0xFFC8B6F1);
+  late Color blueText = Color(0xFF080468);
 }
 
 extension TextStyleHelper on TextStyle {

@@ -5,12 +5,12 @@ Future initFirebase() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: FirebaseOptions(
-            apiKey: "AIzaSyBvDNsldf4Ru0elWsS2fQEdw2BsH7AJAGw",
-            authDomain: "flutterflowstarter.firebaseapp.com",
-            projectId: "flutterflowstarter",
-            storageBucket: "flutterflowstarter.appspot.com",
-            messagingSenderId: "851397253901",
-            appId: "1:851397253901:web:1fa0bd9d4d6a214d30ae44"));
+            apiKey: "AIzaSyCjfs_O34dyfMKadOshPIV-ZJdCePFWNJ4",
+            authDomain: "tutorial-f6f08.firebaseapp.com",
+            projectId: "tutorial-f6f08",
+            storageBucket: "tutorial-f6f08.appspot.com",
+            messagingSenderId: "680170505965",
+            appId: "1:680170505965:web:d61093c8929fed46c16ee4"));
   } else {
     await Firebase.initializeApp();
   }

@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>851397253901-1t2efvanq0ibuute8tv8u2n5eb65k9vd.apps.googleusercontent.com</string>
+	<string>680170505965-2749d4er765hgmnr78vbp8cpugldfhqo.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.851397253901-1t2efvanq0ibuute8tv8u2n5eb65k9vd</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>851397253901-oq17bqh38tbdp1munmh1lqcpc275hf38.apps.googleusercontent.com</string>
+	<string>com.googleusercontent.apps.680170505965-2749d4er765hgmnr78vbp8cpugldfhqo</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCRPp4Q2D7QmYMwCyNTUzjop3tJNniz7Z4</string>
+	<string>AIzaSyBumIQlSQQUP7DXEPfthHIypHZZP8kmavY</string>
 	<key>GCM_SENDER_ID</key>
-	<string>851397253901</string>
+	<string>680170505965</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.flutterflow.flutterflowstarter</string>
+	<string>com.mycompany.tutorial</string>
 	<key>PROJECT_ID</key>
-	<string>flutterflowstarter</string>
+	<string>tutorial-f6f08</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flutterflowstarter.appspot.com</string>
+	<string>tutorial-f6f08.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:851397253901:ios:48a80707ca8588c230ae44</string>
+	<string>1:680170505965:ios:fbb787b34df61398c16ee4</string>
 </dict>
 </plist>

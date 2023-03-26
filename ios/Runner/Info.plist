@@ -28,12 +28,24 @@
             <string>Editor</string>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>com.googleusercontent.apps.851397253901-1t2efvanq0ibuute8tv8u2n5eb65k9vd</string>
+                <string>com.googleusercontent.apps.680170505965-2749d4er765hgmnr78vbp8cpugldfhqo</string>
                 
             </array>
         </dict>
 
+        <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>tutorial.com</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+        <string>tutorial</string>
+        </array>
+        </dict>
     </array>
+    <key>FlutterDeepLinkingEnabled</key>
+    <true/>
 
 
 	<key>CFBundleVersion</key>

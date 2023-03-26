@@ -13,6 +13,7 @@ const kDocumentReferenceField = 'Document__Reference__Field';
 
 @SerializersFor(const [
   ProjectsRecord,
+  UsersStruct,
 ])
 final Serializers serializers = (_$serializers.toBuilder()
       ..add(DocumentReferenceSerializer())
