@@ -1025,8 +1025,8 @@ class _EmptyCartWidgetState extends State<EmptyCartWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.asset(
-                          'assets/images/40.JPG',
+                        child: Image.network(
+                          '',
                           width: 25.0,
                           fit: BoxFit.cover,
                         ),
@@ -1196,9 +1196,8 @@ class _EmptyCartWidgetState extends State<EmptyCartWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 40.0, 0.0, 0.0),
                             child: Image.asset(
-                              'assets/images/50.JPG',
-                              width: 100.0,
-                              height: 100.0,
+                              'assets/images/loon-icon_(13).png',
+                              width: 150.0,
                               fit: BoxFit.cover,
                             ),
                           ),

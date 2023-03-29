@@ -855,8 +855,8 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 20.0, 0.0, 0.0),
-                            child: Image.asset(
-                              'assets/images/50.JPG',
+                            child: Image.network(
+                              '',
                               width: 100.0,
                               height: 100.0,
                               fit: BoxFit.cover,
@@ -941,8 +941,8 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.asset(
-                          'assets/images/40.JPG',
+                        child: Image.network(
+                          '',
                           width: 25.0,
                           fit: BoxFit.cover,
                         ),

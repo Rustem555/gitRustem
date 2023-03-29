@@ -1031,8 +1031,8 @@ class _ProductWidgetState extends State<ProductWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.asset(
-                          'assets/images/40.JPG',
+                        child: Image.network(
+                          '',
                           width: 25.0,
                           fit: BoxFit.cover,
                         ),

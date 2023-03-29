@@ -1023,8 +1023,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           scaffoldKey.currentState!.openDrawer();
                         },
                         child: Image.asset(
-                          'assets/images/40.JPG',
-                          width: 25.0,
+                          'assets/images/loon-icon_(10).png',
+                          width: 35.0,
                           fit: BoxFit.cover,
                         ),
                       ),

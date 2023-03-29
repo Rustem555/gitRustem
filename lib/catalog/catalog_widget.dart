@@ -1007,8 +1007,8 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.asset(
-                          'assets/images/40.JPG',
+                        child: Image.network(
+                          '',
                           width: 25.0,
                           fit: BoxFit.cover,
                         ),
@@ -1250,8 +1250,8 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       10.0, 0.0, 10.0, 0.0),
-                                  child: Image.asset(
-                                    'assets/images/40.JPG',
+                                  child: Image.network(
+                                    '',
                                     width: MediaQuery.of(context).size.width *
                                         0.06,
                                     fit: BoxFit.cover,
