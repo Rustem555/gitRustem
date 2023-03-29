@@ -935,8 +935,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                         iconPadding:
                                             EdgeInsetsDirectional.fromSTEB(
                                                 0.0, 0.0, 0.0, 0.0),
-                                        color: FlutterFlowTheme.of(context)
-                                            .lineColor,
+                                        color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
                                             .subtitle1
                                             .override(
@@ -969,7 +968,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                             EdgeInsetsDirectional.fromSTEB(
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: FlutterFlowTheme.of(context)
-                                            .secondaryColor,
+                                            .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
                                             .subtitle1
                                             .override(
@@ -1035,10 +1034,15 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                       Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 30.0, 0.0),
-                        child: Icon(
-                          Icons.search,
-                          color: Colors.black,
-                          size: 20.0,
+                        child: InkWell(
+                          onTap: () async {
+                            scaffoldKey.currentState!.openDrawer();
+                          },
+                          child: Icon(
+                            Icons.search,
+                            color: Colors.black,
+                            size: 20.0,
+                          ),
                         ),
                       ),
                       Padding(
@@ -1058,50 +1062,57 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             );
                           },
                           child: Image.asset(
-                            'assets/images/39.JPG',
+                            'assets/images/logo.png',
                             width: MediaQuery.of(context).size.width * 0.45,
                             fit: BoxFit.cover,
                           ),
                         ),
                       ),
-                      Stack(
-                        children: [
-                          Icon(
-                            Icons.shopping_cart_outlined,
-                            color: Colors.black,
-                            size: 30.0,
-                          ),
-                          Align(
-                            alignment: AlignmentDirectional(1.0, 0.0),
-                            child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  20.0, 0.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.of(context).size.width * 0.05,
-                                height:
-                                    MediaQuery.of(context).size.width * 0.05,
-                                decoration: BoxDecoration(
-                                  color: FlutterFlowTheme.of(context).blueText,
-                                  shape: BoxShape.circle,
-                                ),
-                                child: Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
-                                  child: Text(
-                                    '2',
-                                    style: FlutterFlowTheme.of(context)
-                                        .bodyText1
-                                        .override(
-                                          fontFamily: 'Poppins',
-                                          color: FlutterFlowTheme.of(context)
-                                              .primaryBtnText,
-                                          fontSize: 8.0,
-                                        ),
+                      InkWell(
+                        onTap: () async {
+                          scaffoldKey.currentState!.openEndDrawer();
+                        },
+                        child: Stack(
+                          children: [
+                            Icon(
+                              Icons.shopping_cart_outlined,
+                              color: Colors.black,
+                              size: 30.0,
+                            ),
+                            Align(
+                              alignment: AlignmentDirectional(1.0, 0.0),
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    20.0, 0.0, 0.0, 0.0),
+                                child: Container(
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.05,
+                                  height:
+                                      MediaQuery.of(context).size.width * 0.05,
+                                  decoration: BoxDecoration(
+                                    color:
+                                        FlutterFlowTheme.of(context).blueText,
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: Align(
+                                    alignment: AlignmentDirectional(0.0, 0.0),
+                                    child: Text(
+                                      '2',
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyText1
+                                          .override(
+                                            fontFamily: 'Poppins',
+                                            color: FlutterFlowTheme.of(context)
+                                                .primaryBtnText,
+                                            fontSize: 8.0,
+                                          ),
+                                    ),
                                   ),
                                 ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                       InkWell(
                         onTap: () async {
@@ -1244,7 +1255,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 20.0, 0.0, 20.0),
                               child: Image.asset(
-                                'assets/images/13.jpg',
+                                'assets/images/recipe2.jpg',
                                 width: MediaQuery.of(context).size.width * 0.9,
                                 fit: BoxFit.contain,
                               ),
@@ -1339,7 +1350,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 20.0, 0.0, 25.0),
                               child: Image.asset(
-                                'assets/images/14.jpg',
+                                'assets/images/recipe3.jpg',
                                 width: MediaQuery.of(context).size.width * 0.9,
                                 fit: BoxFit.cover,
                               ),
@@ -1462,7 +1473,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 5.0, 0.0, 20.0),
                               child: Image.asset(
-                                'assets/images/15.jpg',
+                                'assets/images/recipe4.jpg',
                                 width: MediaQuery.of(context).size.width * 0.9,
                                 fit: BoxFit.cover,
                               ),
@@ -1506,7 +1517,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 20.0, 0.0, 20.0),
                               child: Image.asset(
-                                'assets/images/16.jpg',
+                                'assets/images/recipe5.jpg',
                                 width: MediaQuery.of(context).size.width * 0.9,
                                 fit: BoxFit.cover,
                               ),
@@ -1532,7 +1543,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 5.0, 0.0, 20.0),
                               child: Image.asset(
-                                'assets/images/17.jpg',
+                                'assets/images/recipe6.jpg',
                                 width: MediaQuery.of(context).size.width * 0.9,
                                 fit: BoxFit.cover,
                               ),
@@ -1554,7 +1565,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 20.0, 0.0, 20.0),
                               child: Image.asset(
-                                'assets/images/18.jpg',
+                                'assets/images/recipe7.jpg',
                                 width: MediaQuery.of(context).size.width * 0.9,
                                 fit: BoxFit.cover,
                               ),
@@ -1576,7 +1587,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 20.0, 0.0, 20.0),
                               child: Image.asset(
-                                'assets/images/19.jpg',
+                                'assets/images/recipe8.jpg',
                                 width: MediaQuery.of(context).size.width * 0.9,
                                 fit: BoxFit.cover,
                               ),
@@ -1598,7 +1609,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 5.0, 0.0, 5.0),
                               child: Image.asset(
-                                'assets/images/20.jpg',
+                                'assets/images/recipe9.jpg',
                                 width: MediaQuery.of(context).size.width * 0.9,
                                 fit: BoxFit.cover,
                               ),
@@ -2255,7 +2266,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 10.0, 0.0, 10.0),
+                                  20.0, 10.0, 20.0, 10.0),
                               child: Text(
                                 'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
                                 textAlign: TextAlign.center,
@@ -2355,8 +2366,16 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                     ),
                               ),
                             ),
-                            Divider(
-                              thickness: 1.0,
+                            Container(
+                              width: MediaQuery.of(context).size.width * 0.95,
+                              height: 1.0,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.of(context)
+                                    .secondaryBackground,
+                                border: Border.all(
+                                  color: Color(0xFF57636C),
+                                ),
+                              ),
                             ),
                             Row(
                               mainAxisSize: MainAxisSize.max,

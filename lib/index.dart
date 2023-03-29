@@ -8,5 +8,5 @@ export '/catalog/catalog_widget.dart' show CatalogWidget;
 export '/contacts/contacts_widget.dart' show ContactsWidget;
 export '/favorites/favorites_widget.dart' show FavoritesWidget;
 export '/product/product_widget.dart' show ProductWidget;
-export '/regostration/regostration_widget.dart' show RegostrationWidget;
+export '/registration/registration_widget.dart' show RegistrationWidget;
 export '/empty_cart/empty_cart_widget.dart' show EmptyCartWidget;

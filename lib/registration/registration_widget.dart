@@ -4,18 +4,18 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'regostration_model.dart';
-export 'regostration_model.dart';
+import 'registration_model.dart';
+export 'registration_model.dart';
 
-class RegostrationWidget extends StatefulWidget {
-  const RegostrationWidget({Key? key}) : super(key: key);
+class RegistrationWidget extends StatefulWidget {
+  const RegistrationWidget({Key? key}) : super(key: key);
 
   @override
-  _RegostrationWidgetState createState() => _RegostrationWidgetState();
+  _RegistrationWidgetState createState() => _RegistrationWidgetState();
 }
 
-class _RegostrationWidgetState extends State<RegostrationWidget> {
-  late RegostrationModel _model;
+class _RegistrationWidgetState extends State<RegistrationWidget> {
+  late RegistrationModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
   final _unfocusNode = FocusNode();
@@ -23,7 +23,7 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => RegostrationModel());
+    _model = createModel(context, () => RegistrationModel());
 
     _model.textController ??= TextEditingController();
   }
@@ -932,8 +932,7 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
                                         iconPadding:
                                             EdgeInsetsDirectional.fromSTEB(
                                                 0.0, 0.0, 0.0, 0.0),
-                                        color: FlutterFlowTheme.of(context)
-                                            .lineColor,
+                                        color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
                                             .subtitle1
                                             .override(
@@ -966,7 +965,7 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
                                             EdgeInsetsDirectional.fromSTEB(
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: FlutterFlowTheme.of(context)
-                                            .secondaryColor,
+                                            .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
                                             .subtitle1
                                             .override(
@@ -1032,10 +1031,15 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
                       Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 30.0, 0.0),
-                        child: Icon(
-                          Icons.search,
-                          color: Colors.black,
-                          size: 20.0,
+                        child: InkWell(
+                          onTap: () async {
+                            scaffoldKey.currentState!.openDrawer();
+                          },
+                          child: Icon(
+                            Icons.search,
+                            color: Colors.black,
+                            size: 20.0,
+                          ),
                         ),
                       ),
                       Padding(
@@ -1055,50 +1059,57 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
                             );
                           },
                           child: Image.asset(
-                            'assets/images/39.JPG',
+                            'assets/images/logo.png',
                             width: MediaQuery.of(context).size.width * 0.45,
                             fit: BoxFit.cover,
                           ),
                         ),
                       ),
-                      Stack(
-                        children: [
-                          Icon(
-                            Icons.shopping_cart_outlined,
-                            color: Colors.black,
-                            size: 30.0,
-                          ),
-                          Align(
-                            alignment: AlignmentDirectional(1.0, 0.0),
-                            child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  20.0, 0.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.of(context).size.width * 0.05,
-                                height:
-                                    MediaQuery.of(context).size.width * 0.05,
-                                decoration: BoxDecoration(
-                                  color: FlutterFlowTheme.of(context).blueText,
-                                  shape: BoxShape.circle,
-                                ),
-                                child: Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
-                                  child: Text(
-                                    '2',
-                                    style: FlutterFlowTheme.of(context)
-                                        .bodyText1
-                                        .override(
-                                          fontFamily: 'Poppins',
-                                          color: FlutterFlowTheme.of(context)
-                                              .primaryBtnText,
-                                          fontSize: 8.0,
-                                        ),
+                      InkWell(
+                        onTap: () async {
+                          scaffoldKey.currentState!.openEndDrawer();
+                        },
+                        child: Stack(
+                          children: [
+                            Icon(
+                              Icons.shopping_cart_outlined,
+                              color: Colors.black,
+                              size: 30.0,
+                            ),
+                            Align(
+                              alignment: AlignmentDirectional(1.0, 0.0),
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    20.0, 0.0, 0.0, 0.0),
+                                child: Container(
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.05,
+                                  height:
+                                      MediaQuery.of(context).size.width * 0.05,
+                                  decoration: BoxDecoration(
+                                    color:
+                                        FlutterFlowTheme.of(context).blueText,
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: Align(
+                                    alignment: AlignmentDirectional(0.0, 0.0),
+                                    child: Text(
+                                      '2',
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyText1
+                                          .override(
+                                            fontFamily: 'Poppins',
+                                            color: FlutterFlowTheme.of(context)
+                                                .primaryBtnText,
+                                            fontSize: 8.0,
+                                          ),
+                                    ),
                                   ),
                                 ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                       InkWell(
                         onTap: () async {
@@ -1160,69 +1171,69 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
                 ),
               ),
               Expanded(
-                child: Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 15.0, 0.0),
-                  child: SingleChildScrollView(
-                    child: Column(
-                      mainAxisSize: MainAxisSize.max,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 30.0, 0.0, 0.0),
-                          child: Container(
-                            decoration: BoxDecoration(
-                              color: Color(0xFFE0B252),
-                            ),
-                            child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 10.0, 0.0, 10.0),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.min,
-                                crossAxisAlignment: CrossAxisAlignment.center,
-                                children: [
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        30.0, 0.0, 30.0, 0.0),
-                                    child: Icon(
-                                      Icons.error_outline_sharp,
-                                      color: FlutterFlowTheme.of(context)
-                                          .primaryBtnText,
-                                      size: 24.0,
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: Text(
-                                      'Ошибка: Пожалуйста, укажите действующий адрес электронной почты.',
-                                      style: FlutterFlowTheme.of(context)
-                                          .title2
-                                          .override(
-                                            fontFamily: 'Poppins',
-                                            color: FlutterFlowTheme.of(context)
-                                                .primaryBtnText,
-                                            fontSize: 16.0,
-                                          ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
+                child: SingleChildScrollView(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.max,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            15.0, 30.0, 15.0, 0.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Color(0xFFE0B252),
                           ),
-                        ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 40.0, 0.0, 20.0),
-                          child: Text(
-                            'РЕГИСТРАЦИЯ',
-                            style: FlutterFlowTheme.of(context).title2.override(
-                                  fontFamily: 'Poppins',
-                                  color:
-                                      FlutterFlowTheme.of(context).primaryText,
-                                  fontSize: 30.0,
+                          child: Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 10.0, 0.0, 10.0),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      30.0, 0.0, 30.0, 0.0),
+                                  child: Icon(
+                                    Icons.error_outline_sharp,
+                                    color: FlutterFlowTheme.of(context)
+                                        .primaryBtnText,
+                                    size: 24.0,
+                                  ),
                                 ),
+                                Expanded(
+                                  child: Text(
+                                    'Ошибка: Пожалуйста, укажите действующий адрес электронной почты.',
+                                    style: FlutterFlowTheme.of(context)
+                                        .title2
+                                        .override(
+                                          fontFamily: 'Poppins',
+                                          color: FlutterFlowTheme.of(context)
+                                              .primaryBtnText,
+                                          fontSize: 16.0,
+                                        ),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
-                        Text(
+                      ),
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            15.0, 40.0, 0.0, 20.0),
+                        child: Text(
+                          'РЕГИСТРАЦИЯ',
+                          style: FlutterFlowTheme.of(context).title2.override(
+                                fontFamily: 'Poppins',
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 30.0,
+                              ),
+                        ),
+                      ),
+                      Padding(
+                        padding:
+                            EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 0.0, 0.0),
+                        child: Text(
                           'Email*',
                           style:
                               FlutterFlowTheme.of(context).subtitle1.override(
@@ -1230,10 +1241,14 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
                                     fontSize: 18.0,
                                   ),
                         ),
-                        Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Expanded(
+                      ),
+                      Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [
+                          Expanded(
+                            child: Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  15.0, 0.0, 15.0, 0.0),
                               child: Container(
                                 width: 100.0,
                                 decoration: BoxDecoration(
@@ -1243,87 +1258,95 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
                                     color: Color(0xFFA2A2A2),
                                   ),
                                 ),
-                                child: TextFormField(
-                                  controller: _model.textController,
-                                  autofocus: true,
-                                  obscureText: false,
-                                  decoration: InputDecoration(
-                                    hintStyle:
-                                        FlutterFlowTheme.of(context).bodyText2,
-                                    enabledBorder: UnderlineInputBorder(
-                                      borderSide: BorderSide(
-                                        color: Color(0x00000000),
-                                        width: 1.0,
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      15.0, 0.0, 0.0, 0.0),
+                                  child: TextFormField(
+                                    controller: _model.textController,
+                                    autofocus: true,
+                                    obscureText: false,
+                                    decoration: InputDecoration(
+                                      hintStyle: FlutterFlowTheme.of(context)
+                                          .bodyText2,
+                                      enabledBorder: UnderlineInputBorder(
+                                        borderSide: BorderSide(
+                                          color: Color(0x00000000),
+                                          width: 1.0,
+                                        ),
+                                        borderRadius: const BorderRadius.only(
+                                          topLeft: Radius.circular(4.0),
+                                          topRight: Radius.circular(4.0),
+                                        ),
                                       ),
-                                      borderRadius: const BorderRadius.only(
-                                        topLeft: Radius.circular(4.0),
-                                        topRight: Radius.circular(4.0),
+                                      focusedBorder: UnderlineInputBorder(
+                                        borderSide: BorderSide(
+                                          color: Color(0x00000000),
+                                          width: 1.0,
+                                        ),
+                                        borderRadius: const BorderRadius.only(
+                                          topLeft: Radius.circular(4.0),
+                                          topRight: Radius.circular(4.0),
+                                        ),
+                                      ),
+                                      errorBorder: UnderlineInputBorder(
+                                        borderSide: BorderSide(
+                                          color: Color(0x00000000),
+                                          width: 1.0,
+                                        ),
+                                        borderRadius: const BorderRadius.only(
+                                          topLeft: Radius.circular(4.0),
+                                          topRight: Radius.circular(4.0),
+                                        ),
+                                      ),
+                                      focusedErrorBorder: UnderlineInputBorder(
+                                        borderSide: BorderSide(
+                                          color: Color(0x00000000),
+                                          width: 1.0,
+                                        ),
+                                        borderRadius: const BorderRadius.only(
+                                          topLeft: Radius.circular(4.0),
+                                          topRight: Radius.circular(4.0),
+                                        ),
                                       ),
                                     ),
-                                    focusedBorder: UnderlineInputBorder(
-                                      borderSide: BorderSide(
-                                        color: Color(0x00000000),
-                                        width: 1.0,
-                                      ),
-                                      borderRadius: const BorderRadius.only(
-                                        topLeft: Radius.circular(4.0),
-                                        topRight: Radius.circular(4.0),
-                                      ),
-                                    ),
-                                    errorBorder: UnderlineInputBorder(
-                                      borderSide: BorderSide(
-                                        color: Color(0x00000000),
-                                        width: 1.0,
-                                      ),
-                                      borderRadius: const BorderRadius.only(
-                                        topLeft: Radius.circular(4.0),
-                                        topRight: Radius.circular(4.0),
-                                      ),
-                                    ),
-                                    focusedErrorBorder: UnderlineInputBorder(
-                                      borderSide: BorderSide(
-                                        color: Color(0x00000000),
-                                        width: 1.0,
-                                      ),
-                                      borderRadius: const BorderRadius.only(
-                                        topLeft: Radius.circular(4.0),
-                                        topRight: Radius.circular(4.0),
-                                      ),
-                                    ),
+                                    style:
+                                        FlutterFlowTheme.of(context).bodyText1,
+                                    validator: _model.textControllerValidator
+                                        .asValidator(context),
                                   ),
-                                  style: FlutterFlowTheme.of(context).bodyText1,
-                                  validator: _model.textControllerValidator
-                                      .asValidator(context),
                                 ),
                               ),
                             ),
-                          ],
-                        ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 20.0, 0.0, 0.0),
-                          child: Text(
-                            'A password will be sent to your email address.',
-                            style:
-                                FlutterFlowTheme.of(context).subtitle1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 14.0,
-                                    ),
                           ),
+                        ],
+                      ),
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            15.0, 20.0, 0.0, 0.0),
+                        child: Text(
+                          'A password will be sent to your email address.',
+                          style:
+                              FlutterFlowTheme.of(context).subtitle1.override(
+                                    fontFamily: 'Poppins',
+                                    fontSize: 14.0,
+                                  ),
                         ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 20.0, 0.0, 0.0),
-                          child: Text(
-                            'Ваши личные данные будут использоваться для упрощения вашего дальнейшего взаимодействия с сайтом, управления доступом к вашему аккаунту и других целей, описанных в документе политика конфиденциальности.',
-                            style:
-                                FlutterFlowTheme.of(context).subtitle1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 15.0,
-                                    ),
-                          ),
+                      ),
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            15.0, 20.0, 15.0, 20.0),
+                        child: Text(
+                          'Ваши личные данные будут использоваться для упрощения вашего дальнейшего взаимодействия с сайтом, управления доступом к вашему аккаунту и других целей, описанных в документе политика конфиденциальности.',
+                          style:
+                              FlutterFlowTheme.of(context).subtitle1.override(
+                                    fontFamily: 'Poppins',
+                                    fontSize: 15.0,
+                                  ),
                         ),
-                        Padding(
+                      ),
+                      Align(
+                        alignment: AlignmentDirectional(0.0, 0.0),
+                        child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 0.0, 10.0),
                           child: Container(
@@ -1349,7 +1372,10 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
                             ),
                           ),
                         ),
-                        Container(
+                      ),
+                      Align(
+                        alignment: AlignmentDirectional(0.0, 0.0),
+                        child: Container(
                           width: MediaQuery.of(context).size.width * 0.9,
                           height: MediaQuery.of(context).size.height * 0.06,
                           decoration: BoxDecoration(
@@ -1371,17 +1397,21 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
                             ),
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 20.0, 0.0, 0.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.max,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Theme(
+                      ),
+                      Padding(
+                        padding:
+                            EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.max,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Row(
+                              mainAxisSize: MainAxisSize.max,
+                              children: [
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      15.0, 0.0, 0.0, 0.0),
+                                  child: Theme(
                                     data: ThemeData(
                                       checkboxTheme: CheckboxThemeData(
                                         shape: RoundedRectangleBorder(
@@ -1402,171 +1432,172 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
                                       activeColor: Color(0xFF110011),
                                     ),
                                   ),
-                                  Text(
-                                    'Запомнить меня',
-                                    style:
-                                        FlutterFlowTheme.of(context).bodyText1,
-                                  ),
-                                ],
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 0.0, 10.0, 0.0),
-                                child: Text(
-                                  'Забыли пароль?',
+                                ),
+                                Text(
+                                  'Запомнить меня',
                                   style: FlutterFlowTheme.of(context).bodyText1,
                                 ),
+                              ],
+                            ),
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 0.0, 15.0, 0.0),
+                              child: Text(
+                                'Забыли пароль?',
+                                style: FlutterFlowTheme.of(context).bodyText1,
                               ),
-                            ],
-                          ),
+                            ),
+                          ],
                         ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 40.0, 0.0, 20.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.max,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Expanded(
-                                child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      0.0, 0.0, 10.0, 0.0),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    children: [
-                                      Divider(
-                                        height: 1.0,
-                                        thickness: 1.0,
-                                        indent: 1.0,
-                                        endIndent: 1.0,
-                                        color: Color(0xDFA5A5A5),
-                                      ),
-                                    ],
-                                  ),
+                      ),
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            0.0, 40.0, 0.0, 20.0),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.max,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Expanded(
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 0.0, 10.0, 0.0),
+                                child: Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Divider(
+                                      height: 1.0,
+                                      thickness: 1.0,
+                                      indent: 1.0,
+                                      endIndent: 1.0,
+                                      color: Color(0xDFA5A5A5),
+                                    ),
+                                  ],
                                 ),
                               ),
-                              Text(
-                                'или',
+                            ),
+                            Text(
+                              'или',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'Poppins',
+                                    fontSize: 22.0,
+                                  ),
+                            ),
+                            Expanded(
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    10.0, 0.0, 0.0, 0.0),
+                                child: Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Divider(
+                                      thickness: 1.0,
+                                      color: Color(0xDFA5A5A5),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Align(
+                        alignment: AlignmentDirectional(0.0, 0.0),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 20.0, 0.0, 20.0),
+                          child: Text(
+                            'LOGIN',
+                            style:
+                                FlutterFlowTheme.of(context).subtitle1.override(
+                                      fontFamily: 'Poppins',
+                                      fontSize: 26.0,
+                                      fontWeight: FontWeight.w300,
+                                    ),
+                          ),
+                        ),
+                      ),
+                      Align(
+                        alignment: AlignmentDirectional(0.0, 0.0),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 20.0, 0.0, 20.0),
+                          child: Text(
+                            'Заполните форму',
+                            style:
+                                FlutterFlowTheme.of(context).subtitle1.override(
+                                      fontFamily: 'Poppins',
+                                      fontSize: 18.0,
+                                      fontWeight: FontWeight.w300,
+                                    ),
+                          ),
+                        ),
+                      ),
+                      Align(
+                        alignment: AlignmentDirectional(0.0, 0.0),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 50.0),
+                          child: Container(
+                            width: MediaQuery.of(context).size.width * 0.25,
+                            height: 65.0,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.of(context).lineColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 20.0, 0.0, 20.0),
+                              child: Text(
+                                'ВХОД',
+                                textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .bodyText1
+                                    .subtitle1
                                     .override(
                                       fontFamily: 'Poppins',
-                                      fontSize: 22.0,
+                                      fontSize: 18.0,
+                                      fontWeight: FontWeight.w300,
                                     ),
                               ),
-                              Expanded(
-                                child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      10.0, 0.0, 0.0, 0.0),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    children: [
-                                      Divider(
-                                        thickness: 1.0,
-                                        color: Color(0xDFA5A5A5),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        Align(
-                          alignment: AlignmentDirectional(0.0, 0.0),
-                          child: Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 20.0, 0.0, 20.0),
-                            child: Text(
-                              'LOGIN',
-                              style: FlutterFlowTheme.of(context)
-                                  .subtitle1
-                                  .override(
-                                    fontFamily: 'Poppins',
-                                    fontSize: 26.0,
-                                    fontWeight: FontWeight.w300,
-                                  ),
                             ),
                           ),
                         ),
-                        Align(
-                          alignment: AlignmentDirectional(0.0, 0.0),
-                          child: Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 20.0, 0.0, 20.0),
-                            child: Text(
-                              'Заполните форму',
-                              style: FlutterFlowTheme.of(context)
-                                  .subtitle1
-                                  .override(
-                                    fontFamily: 'Poppins',
-                                    fontSize: 18.0,
-                                    fontWeight: FontWeight.w300,
-                                  ),
+                      ),
+                      Align(
+                        alignment: AlignmentDirectional(0.0, 0.0),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 50.0),
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.of(context).lineColor,
                             ),
-                          ),
-                        ),
-                        Align(
-                          alignment: AlignmentDirectional(0.0, 0.0),
-                          child: Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 0.0, 0.0, 50.0),
-                            child: Container(
-                              width: MediaQuery.of(context).size.width * 0.25,
-                              height: 65.0,
-                              decoration: BoxDecoration(
-                                color: FlutterFlowTheme.of(context).lineColor,
-                              ),
-                              child: Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 20.0, 0.0, 20.0),
-                                child: Text(
-                                  'ВХОД',
-                                  textAlign: TextAlign.center,
-                                  style: FlutterFlowTheme.of(context)
-                                      .subtitle1
-                                      .override(
-                                        fontFamily: 'Poppins',
-                                        fontSize: 18.0,
-                                        fontWeight: FontWeight.w300,
-                                      ),
-                                ),
+                            child: Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  8.0, 20.0, 8.0, 20.0),
+                              child: Text(
+                                'РЕГИСТРАЦИЯ',
+                                textAlign: TextAlign.center,
+                                style: FlutterFlowTheme.of(context)
+                                    .subtitle1
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      fontSize: 18.0,
+                                      fontWeight: FontWeight.w600,
+                                    ),
                               ),
                             ),
                           ),
                         ),
-                        Align(
-                          alignment: AlignmentDirectional(0.0, 0.0),
-                          child: Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 0.0, 0.0, 50.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                color: FlutterFlowTheme.of(context).lineColor,
-                              ),
-                              child: Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    8.0, 20.0, 8.0, 20.0),
-                                child: Text(
-                                  'РЕГИСТРАЦИЯ',
-                                  textAlign: TextAlign.center,
-                                  style: FlutterFlowTheme.of(context)
-                                      .subtitle1
-                                      .override(
-                                        fontFamily: 'Poppins',
-                                        fontSize: 18.0,
-                                        fontWeight: FontWeight.w600,
-                                      ),
-                                ),
-                              ),
-                            ),
-                          ),
+                      ),
+                      Container(
+                        width: MediaQuery.of(context).size.width * 1.0,
+                        decoration: BoxDecoration(
+                          color: FlutterFlowTheme.of(context).lineColor,
                         ),
-                        Container(
-                          width: MediaQuery.of(context).size.width * 1.0,
-                          decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context).lineColor,
-                          ),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              20.0, 0.0, 20.0, 0.0),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
                             children: [
@@ -1686,8 +1717,16 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
                                       ),
                                 ),
                               ),
-                              Divider(
-                                thickness: 1.0,
+                              Container(
+                                width: MediaQuery.of(context).size.width * 0.95,
+                                height: 1.0,
+                                decoration: BoxDecoration(
+                                  color: FlutterFlowTheme.of(context)
+                                      .secondaryBackground,
+                                  border: Border.all(
+                                    color: Color(0xFF57636C),
+                                  ),
+                                ),
                               ),
                               Row(
                                 mainAxisSize: MainAxisSize.max,
@@ -1708,8 +1747,8 @@ class _RegostrationWidgetState extends State<RegostrationWidget> {
                             ],
                           ),
                         ),
-                      ],
-                    ),
+                      ),
+                    ],
                   ),
                 ),
               ),

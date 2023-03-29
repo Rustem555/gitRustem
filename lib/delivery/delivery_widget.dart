@@ -930,8 +930,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                         iconPadding:
                                             EdgeInsetsDirectional.fromSTEB(
                                                 0.0, 0.0, 0.0, 0.0),
-                                        color: FlutterFlowTheme.of(context)
-                                            .lineColor,
+                                        color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
                                             .subtitle1
                                             .override(
@@ -964,7 +963,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                             EdgeInsetsDirectional.fromSTEB(
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: FlutterFlowTheme.of(context)
-                                            .secondaryColor,
+                                            .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
                                             .subtitle1
                                             .override(
@@ -1030,10 +1029,15 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                       Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 30.0, 0.0),
-                        child: Icon(
-                          Icons.search,
-                          color: Colors.black,
-                          size: 20.0,
+                        child: InkWell(
+                          onTap: () async {
+                            scaffoldKey.currentState!.openDrawer();
+                          },
+                          child: Icon(
+                            Icons.search,
+                            color: Colors.black,
+                            size: 20.0,
+                          ),
                         ),
                       ),
                       Padding(
@@ -1053,50 +1057,57 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                             );
                           },
                           child: Image.asset(
-                            'assets/images/39.JPG',
+                            'assets/images/logo.png',
                             width: MediaQuery.of(context).size.width * 0.45,
                             fit: BoxFit.cover,
                           ),
                         ),
                       ),
-                      Stack(
-                        children: [
-                          Icon(
-                            Icons.shopping_cart_outlined,
-                            color: Colors.black,
-                            size: 30.0,
-                          ),
-                          Align(
-                            alignment: AlignmentDirectional(1.0, 0.0),
-                            child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  20.0, 0.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.of(context).size.width * 0.05,
-                                height:
-                                    MediaQuery.of(context).size.width * 0.05,
-                                decoration: BoxDecoration(
-                                  color: FlutterFlowTheme.of(context).blueText,
-                                  shape: BoxShape.circle,
-                                ),
-                                child: Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
-                                  child: Text(
-                                    '2',
-                                    style: FlutterFlowTheme.of(context)
-                                        .bodyText1
-                                        .override(
-                                          fontFamily: 'Poppins',
-                                          color: FlutterFlowTheme.of(context)
-                                              .primaryBtnText,
-                                          fontSize: 8.0,
-                                        ),
+                      InkWell(
+                        onTap: () async {
+                          scaffoldKey.currentState!.openEndDrawer();
+                        },
+                        child: Stack(
+                          children: [
+                            Icon(
+                              Icons.shopping_cart_outlined,
+                              color: Colors.black,
+                              size: 30.0,
+                            ),
+                            Align(
+                              alignment: AlignmentDirectional(1.0, 0.0),
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    20.0, 0.0, 0.0, 0.0),
+                                child: Container(
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.05,
+                                  height:
+                                      MediaQuery.of(context).size.width * 0.05,
+                                  decoration: BoxDecoration(
+                                    color:
+                                        FlutterFlowTheme.of(context).blueText,
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: Align(
+                                    alignment: AlignmentDirectional(0.0, 0.0),
+                                    child: Text(
+                                      '2',
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyText1
+                                          .override(
+                                            fontFamily: 'Poppins',
+                                            color: FlutterFlowTheme.of(context)
+                                                .primaryBtnText,
+                                            fontSize: 8.0,
+                                          ),
+                                    ),
                                   ),
                                 ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                       InkWell(
                         onTap: () async {
@@ -1158,27 +1169,27 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                 ),
               ),
               Expanded(
-                child: Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 15.0, 0.0),
-                  child: SingleChildScrollView(
-                    child: Column(
-                      mainAxisSize: MainAxisSize.max,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 40.0, 0.0, 20.0),
-                          child: Text(
-                            'Доставка',
-                            style: FlutterFlowTheme.of(context).title2.override(
-                                  fontFamily: 'Poppins',
-                                  color:
-                                      FlutterFlowTheme.of(context).primaryText,
-                                  fontSize: 30.0,
-                                ),
-                          ),
+                child: SingleChildScrollView(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.max,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            15.0, 40.0, 0.0, 20.0),
+                        child: Text(
+                          'Доставка',
+                          style: FlutterFlowTheme.of(context).title2.override(
+                                fontFamily: 'Poppins',
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 30.0,
+                              ),
                         ),
-                        Text(
+                      ),
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            15.0, 0.0, 15.0, 0.0),
+                        child: Text(
                           'Оформите заказ сегодня На следующий день Ваш заказ будет обжарен, зафасован и передан в доставку Курьерские службы постараются доставить как можно быстрее, от 1 дня Ваш заказ у Вас в руках! Наслаждайтесь погружением в мир кофе!',
                           style:
                               FlutterFlowTheme.of(context).subtitle1.override(
@@ -1186,20 +1197,23 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                     fontSize: 18.0,
                                   ),
                         ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 30.0, 0.0, 20.0),
-                          child: Text(
-                            'Политика возврата товара',
-                            style: FlutterFlowTheme.of(context).title2.override(
-                                  fontFamily: 'Poppins',
-                                  color:
-                                      FlutterFlowTheme.of(context).primaryText,
-                                  fontSize: 30.0,
-                                ),
-                          ),
+                      ),
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            15.0, 30.0, 15.0, 20.0),
+                        child: Text(
+                          'Политика возврата товара',
+                          style: FlutterFlowTheme.of(context).title2.override(
+                                fontFamily: 'Poppins',
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 28.0,
+                              ),
                         ),
-                        Text(
+                      ),
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            15.0, 0.0, 15.0, 0.0),
+                        child: Text(
                           'Качество – это самый важный аспект в нашей работе. Мы создаем продукт, которым гордимся. С первого момента знакомства с зерном начинается путь исследований и улучшений. Вначале, изучаются свойства (высота произрастания, разновидность, способ обработки и т. д.).\n\nЗатем, формируется профиль, путем нескольких обжарок с разными параметрами и выбора лучшего из полученных результатов. И последний, но самый важный этап работы с качеством – это поддержание и отслеживание результатов каждой отгружаемой партии.\n\nВ нашей команде 3 Q-грейдера. Все вкусовые характеристики и оценки фиксируются в программе и в архиве. Для того, чтобы получить наилучший результат в чашке, на пачке Вы найдете рекомендации по всем аспектам – вода, график выхода зерна на пик вкуса, QR на полное описание лота и рекомендуемые рецепты заваривания.',
                           style:
                               FlutterFlowTheme.of(context).subtitle1.override(
@@ -1207,163 +1221,171 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                     fontSize: 18.0,
                                   ),
                         ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 20.0, 0.0, 120.0),
-                          child: Image.asset(
-                            'assets/images/44.png',
-                            width: MediaQuery.of(context).size.width * 1.0,
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                        Container(
+                      ),
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            15.0, 20.0, 15.0, 120.0),
+                        child: Image.asset(
+                          'assets/images/delivery.png',
                           width: MediaQuery.of(context).size.width * 1.0,
-                          decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context).lineColor,
-                          ),
-                          child: Column(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 30.0, 0.0, 0.0),
-                                child: Text(
-                                  'ORIENT',
-                                  style: FlutterFlowTheme.of(context)
-                                      .title2
-                                      .override(
-                                        fontFamily: 'Poppins',
-                                        color: Color(0xFF110011),
-                                        fontSize: 22.0,
-                                      ),
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 10.0, 0.0, 10.0),
-                                child: Text(
-                                  'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
-                                  textAlign: TextAlign.center,
-                                  style: FlutterFlowTheme.of(context)
-                                      .title2
-                                      .override(
-                                        fontFamily: 'Poppins',
-                                        color: Color(0xFF110011),
-                                        fontSize: 13.0,
-                                      ),
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 30.0, 0.0, 0.0),
-                                child: Text(
-                                  'Для клиентов',
-                                  style: FlutterFlowTheme.of(context)
-                                      .title2
-                                      .override(
-                                        fontFamily: 'Poppins',
-                                        color: Color(0xFF110011),
-                                        fontSize: 22.0,
-                                      ),
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 10.0, 0.0, 10.0),
-                                child: Text(
-                                  'Вход/регистрация\nЛичный кабинет\nСтатус заказа',
-                                  textAlign: TextAlign.center,
-                                  style: FlutterFlowTheme.of(context)
-                                      .title2
-                                      .override(
-                                        fontFamily: 'Poppins',
-                                        color: Color(0xFF110011),
-                                        fontSize: 13.0,
-                                      ),
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 30.0, 0.0, 0.0),
-                                child: Text(
-                                  'О нас',
-                                  style: FlutterFlowTheme.of(context)
-                                      .title2
-                                      .override(
-                                        fontFamily: 'Poppins',
-                                        color: Color(0xFF110011),
-                                        fontSize: 22.0,
-                                      ),
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 10.0, 0.0, 10.0),
-                                child: Text(
-                                  'О нас\nОПТ\nДоставка',
-                                  textAlign: TextAlign.center,
-                                  style: FlutterFlowTheme.of(context)
-                                      .title2
-                                      .override(
-                                        fontFamily: 'Poppins',
-                                        color: Color(0xFF110011),
-                                        fontSize: 13.0,
-                                      ),
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 30.0, 0.0, 0.0),
-                                child: Text(
-                                  'Блог о кофе',
-                                  style: FlutterFlowTheme.of(context)
-                                      .title2
-                                      .override(
-                                        fontFamily: 'Poppins',
-                                        color: Color(0xFF110011),
-                                        fontSize: 22.0,
-                                      ),
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 10.0, 0.0, 50.0),
-                                child: Text(
-                                  'Рецепты\nЭнциклопедия кофе',
-                                  textAlign: TextAlign.center,
-                                  style: FlutterFlowTheme.of(context)
-                                      .title2
-                                      .override(
-                                        fontFamily: 'Poppins',
-                                        color: Color(0xFF110011),
-                                        fontSize: 13.0,
-                                      ),
-                                ),
-                              ),
-                              Divider(
-                                thickness: 1.0,
-                              ),
-                              Row(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Image.asset(
-                                    'assets/images/loon-icon_(8).png',
-                                    width: 80.0,
-                                    fit: BoxFit.cover,
-                                  ),
-                                  Image.asset(
-                                    'assets/images/loon-icon_(7).png',
-                                    width: 80.0,
-                                    fit: BoxFit.cover,
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
+                          fit: BoxFit.cover,
                         ),
-                      ],
-                    ),
+                      ),
+                      Container(
+                        width: MediaQuery.of(context).size.width * 1.0,
+                        decoration: BoxDecoration(
+                          color: FlutterFlowTheme.of(context).lineColor,
+                        ),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.max,
+                          children: [
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 30.0, 0.0, 0.0),
+                              child: Text(
+                                'ORIENT',
+                                style: FlutterFlowTheme.of(context)
+                                    .title2
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      color: Color(0xFF110011),
+                                      fontSize: 22.0,
+                                    ),
+                              ),
+                            ),
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  20.0, 10.0, 20.0, 10.0),
+                              child: Text(
+                                'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
+                                textAlign: TextAlign.center,
+                                style: FlutterFlowTheme.of(context)
+                                    .title2
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      color: Color(0xFF110011),
+                                      fontSize: 13.0,
+                                    ),
+                              ),
+                            ),
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 30.0, 0.0, 0.0),
+                              child: Text(
+                                'Для клиентов',
+                                style: FlutterFlowTheme.of(context)
+                                    .title2
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      color: Color(0xFF110011),
+                                      fontSize: 22.0,
+                                    ),
+                              ),
+                            ),
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 10.0, 0.0, 10.0),
+                              child: Text(
+                                'Вход/регистрация\nЛичный кабинет\nСтатус заказа',
+                                textAlign: TextAlign.center,
+                                style: FlutterFlowTheme.of(context)
+                                    .title2
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      color: Color(0xFF110011),
+                                      fontSize: 13.0,
+                                    ),
+                              ),
+                            ),
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 30.0, 0.0, 0.0),
+                              child: Text(
+                                'О нас',
+                                style: FlutterFlowTheme.of(context)
+                                    .title2
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      color: Color(0xFF110011),
+                                      fontSize: 22.0,
+                                    ),
+                              ),
+                            ),
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 10.0, 0.0, 10.0),
+                              child: Text(
+                                'О нас\nОПТ\nДоставка',
+                                textAlign: TextAlign.center,
+                                style: FlutterFlowTheme.of(context)
+                                    .title2
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      color: Color(0xFF110011),
+                                      fontSize: 13.0,
+                                    ),
+                              ),
+                            ),
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 30.0, 0.0, 0.0),
+                              child: Text(
+                                'Блог о кофе',
+                                style: FlutterFlowTheme.of(context)
+                                    .title2
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      color: Color(0xFF110011),
+                                      fontSize: 22.0,
+                                    ),
+                              ),
+                            ),
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 10.0, 0.0, 50.0),
+                              child: Text(
+                                'Рецепты\nЭнциклопедия кофе',
+                                textAlign: TextAlign.center,
+                                style: FlutterFlowTheme.of(context)
+                                    .title2
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      color: Color(0xFF110011),
+                                      fontSize: 13.0,
+                                    ),
+                              ),
+                            ),
+                            Container(
+                              width: MediaQuery.of(context).size.width * 0.95,
+                              height: 1.0,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.of(context)
+                                    .secondaryBackground,
+                                border: Border.all(
+                                  color: Color(0xFF57636C),
+                                ),
+                              ),
+                            ),
+                            Row(
+                              mainAxisSize: MainAxisSize.max,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Image.asset(
+                                  'assets/images/loon-icon_(8).png',
+                                  width: 80.0,
+                                  fit: BoxFit.cover,
+                                ),
+                                Image.asset(
+                                  'assets/images/loon-icon_(7).png',
+                                  width: 80.0,
+                                  fit: BoxFit.cover,
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),

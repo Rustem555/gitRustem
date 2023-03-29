@@ -123,9 +123,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ProductWidget(),
         ),
         FFRoute(
-          name: 'regostration',
-          path: '/regostration',
-          builder: (context, params) => RegostrationWidget(),
+          name: 'registration',
+          path: '/registration',
+          builder: (context, params) => RegistrationWidget(),
         ),
         FFRoute(
           name: 'emptyCart',

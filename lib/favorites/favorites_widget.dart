@@ -930,8 +930,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                         iconPadding:
                                             EdgeInsetsDirectional.fromSTEB(
                                                 0.0, 0.0, 0.0, 0.0),
-                                        color: FlutterFlowTheme.of(context)
-                                            .lineColor,
+                                        color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
                                             .subtitle1
                                             .override(
@@ -964,7 +963,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                             EdgeInsetsDirectional.fromSTEB(
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: FlutterFlowTheme.of(context)
-                                            .secondaryColor,
+                                            .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
                                             .subtitle1
                                             .override(
@@ -1030,10 +1029,15 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                       Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 30.0, 0.0),
-                        child: Icon(
-                          Icons.search,
-                          color: Colors.black,
-                          size: 20.0,
+                        child: InkWell(
+                          onTap: () async {
+                            scaffoldKey.currentState!.openDrawer();
+                          },
+                          child: Icon(
+                            Icons.search,
+                            color: Colors.black,
+                            size: 20.0,
+                          ),
                         ),
                       ),
                       Padding(
@@ -1053,50 +1057,57 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                             );
                           },
                           child: Image.asset(
-                            'assets/images/39.JPG',
+                            'assets/images/logo.png',
                             width: MediaQuery.of(context).size.width * 0.45,
                             fit: BoxFit.cover,
                           ),
                         ),
                       ),
-                      Stack(
-                        children: [
-                          Icon(
-                            Icons.shopping_cart_outlined,
-                            color: Colors.black,
-                            size: 30.0,
-                          ),
-                          Align(
-                            alignment: AlignmentDirectional(1.0, 0.0),
-                            child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  20.0, 0.0, 0.0, 0.0),
-                              child: Container(
-                                width: MediaQuery.of(context).size.width * 0.05,
-                                height:
-                                    MediaQuery.of(context).size.width * 0.05,
-                                decoration: BoxDecoration(
-                                  color: FlutterFlowTheme.of(context).blueText,
-                                  shape: BoxShape.circle,
-                                ),
-                                child: Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
-                                  child: Text(
-                                    '2',
-                                    style: FlutterFlowTheme.of(context)
-                                        .bodyText1
-                                        .override(
-                                          fontFamily: 'Poppins',
-                                          color: FlutterFlowTheme.of(context)
-                                              .primaryBtnText,
-                                          fontSize: 8.0,
-                                        ),
+                      InkWell(
+                        onTap: () async {
+                          scaffoldKey.currentState!.openEndDrawer();
+                        },
+                        child: Stack(
+                          children: [
+                            Icon(
+                              Icons.shopping_cart_outlined,
+                              color: Colors.black,
+                              size: 30.0,
+                            ),
+                            Align(
+                              alignment: AlignmentDirectional(1.0, 0.0),
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    20.0, 0.0, 0.0, 0.0),
+                                child: Container(
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.05,
+                                  height:
+                                      MediaQuery.of(context).size.width * 0.05,
+                                  decoration: BoxDecoration(
+                                    color:
+                                        FlutterFlowTheme.of(context).blueText,
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: Align(
+                                    alignment: AlignmentDirectional(0.0, 0.0),
+                                    child: Text(
+                                      '2',
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyText1
+                                          .override(
+                                            fontFamily: 'Poppins',
+                                            color: FlutterFlowTheme.of(context)
+                                                .primaryBtnText,
+                                            fontSize: 8.0,
+                                          ),
+                                    ),
                                   ),
                                 ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                       Stack(
                         children: [
@@ -1227,7 +1238,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                 image: DecorationImage(
                                                   fit: BoxFit.cover,
                                                   image: Image.asset(
-                                                    'assets/images/28.JPG',
+                                                    'assets/images/coffeBag.png',
                                                   ).image,
                                                 ),
                                               ),
@@ -1452,7 +1463,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                 image: DecorationImage(
                                                   fit: BoxFit.cover,
                                                   image: Image.asset(
-                                                    'assets/images/28.JPG',
+                                                    'assets/images/coffeBag.png',
                                                   ).image,
                                                 ),
                                               ),
@@ -1688,7 +1699,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                 image: DecorationImage(
                                                   fit: BoxFit.cover,
                                                   image: Image.asset(
-                                                    'assets/images/28.JPG',
+                                                    'assets/images/coffeBag.png',
                                                   ).image,
                                                 ),
                                               ),
@@ -1909,8 +1920,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                         child: Container(
                           width: MediaQuery.of(context).size.width * 1.0,
                           decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context)
-                                .secondaryBackground,
+                            color: FlutterFlowTheme.of(context).lineColor,
                           ),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
@@ -2031,8 +2041,16 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                       ),
                                 ),
                               ),
-                              Divider(
-                                thickness: 1.0,
+                              Container(
+                                width: MediaQuery.of(context).size.width * 0.95,
+                                height: 1.0,
+                                decoration: BoxDecoration(
+                                  color: FlutterFlowTheme.of(context)
+                                      .secondaryBackground,
+                                  border: Border.all(
+                                    color: Color(0xFF57636C),
+                                  ),
+                                ),
                               ),
                               Row(
                                 mainAxisSize: MainAxisSize.max,
