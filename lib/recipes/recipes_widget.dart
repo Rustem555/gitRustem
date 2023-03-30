@@ -96,7 +96,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             child: Text(
                               'КАТАЛОГ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -136,7 +136,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             child: Text(
                               'ОПТ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -176,7 +176,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             child: Text(
                               'РЕЦЕПТЫ ЗАВАРИВАНИЯ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -218,7 +218,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             child: Text(
                               'ЭНЦИКЛОПЕДИЯ КОФЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -260,7 +260,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             child: Text(
                               'ДОСТАВКА',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -300,7 +300,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             child: Text(
                               'КОНТАКТЫ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -349,7 +349,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             child: Text(
                               'ИЗБРАННОЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -384,12 +384,13 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               5.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'ВХОД/РЕГИСТРАЦИЯ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -448,7 +449,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                       child: Text(
                                         'КОРЗИНА',
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 24.0,
@@ -480,7 +481,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                           child: Text(
                                             'ЗАКРЫТЬ',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -567,7 +568,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -589,7 +590,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -619,7 +620,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -645,13 +646,13 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -740,7 +741,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -762,7 +763,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -792,7 +793,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -818,13 +819,13 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -887,7 +888,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                   child: Text(
                                     'ПОДЫТОГ:',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 22.0,
@@ -901,11 +902,11 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                   child: Text(
                                     '2 600 ₽',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
-                                              .secondaryColor,
+                                              .secondary,
                                           fontSize: 22.0,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -937,11 +938,12 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -970,7 +972,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                         color: FlutterFlowTheme.of(context)
                                             .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               color:
@@ -978,6 +980,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                                       .primaryBtnText,
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -1025,9 +1028,9 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.network(
-                          '',
-                          width: 25.0,
+                        child: Image.asset(
+                          'assets/images/loon-icon_(10).png',
+                          width: 35.0,
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -1099,7 +1102,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1154,7 +1157,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1199,7 +1202,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                     'БЕЗ РУБРИКИ',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
@@ -1228,7 +1231,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                     child: Text(
                                       'Zazulya',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1243,7 +1246,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               'Как сварить кофе в гейзерной кофеварке – подробная инструкция',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
-                                  .subtitle2
+                                  .titleSmall
                                   .override(
                                     fontFamily: 'Lora',
                                     color: FlutterFlowTheme.of(context)
@@ -1262,7 +1265,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             ),
                             Text(
                               'Гейзерная кофеварка (она же мока) покорила сердца людей по всему миру своей простотой, удобством и качеством готового напитка. Благодаря изобретению синьора Альфонсо Биалетти миллионы людей могут готовить эспрессо прямо у себя дома, не покупая при этом дорогостоящую технику. Однако, несмотря на простоту, у каждого способа есть свои нюансы.\n\nВ этой статье мы расскажем, как правильно варить кофе в гейзерной кофеварке. Наша инструкция будет полезна и тем, кто только что купил себе новенькую моку, и тем, кто уже знает как пользоваться кофеваркой гейзерного типа – для них мы приготовили несколько весьма полезных советов.\n\nОднако прежде чем переходить непосредственно к приготовлению, нам нужно обратить внимание на то, что мы будем варить.',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
@@ -1270,7 +1273,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               child: Text(
                                 'Какой кофе подойдёт для гейзерной кофеварки',
                                 style: FlutterFlowTheme.of(context)
-                                    .title3
+                                    .headlineSmall
                                     .override(
                                       fontFamily: 'Poppins',
                                       fontSize: 33.0,
@@ -1279,7 +1282,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             ),
                             Text(
                               'Выбор конкретного сорта и степени обжарки зависит больше от ваших личных предпочтений, однако стоит помнить, что вкусный кофе в гейзерной кофеварке получится лишь в том случае, если сам кофе будет:\n\nа) свежим;\nб) качественным;\nв) правильной степени помола.\n\nС первыми двумя пунктами более-менее понятно. Что же касается последнего, то лучшим помолом для гейзерной кофеварки считается средний или чуть меньше (чуть мельче сахара). Чтобы облегчить вам задачу, мы выпустили кофе идеальной степени помола для наших гейзерных кофеварок. Мы постарались учесть вкусы каждого и подобрали бленды разных сортов и вкусов (в том числе с пониженным содержанием кофеина) – чтобы вы могли попробовать разные и найти свой любимый.\n\nС кофе определились – теперь разберём, как правильно его варить.',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
@@ -1287,7 +1290,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               child: Text(
                                 'Как приготовить кофе в гейзерной кофеварке',
                                 style: FlutterFlowTheme.of(context)
-                                    .title3
+                                    .headlineSmall
                                     .override(
                                       fontFamily: 'Poppins',
                                       fontSize: 33.0,
@@ -1299,7 +1302,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                   0.0, 0.0, 0.0, 20.0),
                               child: Text(
                                 'Перед первым использованием мы рекомендуем 2-3 раза заварить кофе в кофеварке и вылить его – это смоет частицы заводской пыли и остатки смазки, и на их месте образуется благородная кофейная плёнка, усиливающая вкусовые свойства напитка.',
-                                style: FlutterFlowTheme.of(context).bodyText1,
+                                style: FlutterFlowTheme.of(context).bodyMedium,
                               ),
                             ),
                             Padding(
@@ -1308,7 +1311,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               child: Text(
                                 'Шаг 1                                                                                                   ',
                                 style: FlutterFlowTheme.of(context)
-                                    .bodyText1
+                                    .bodyMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       fontWeight: FontWeight.bold,
@@ -1317,7 +1320,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             ),
                             Text(
                               'Для начала отвинтите верхнюю часть и достаньте фильтр-воронку.',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Row(
                               mainAxisSize: MainAxisSize.max,
@@ -1325,7 +1328,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                 Text(
                                   'Важно:',
                                   style: FlutterFlowTheme.of(context)
-                                      .bodyText1
+                                      .bodyMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         fontWeight: FontWeight.bold,
@@ -1337,7 +1340,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                   child: Text(
                                     'держитесь за корпус, а не за ручку.',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontWeight: FontWeight.normal,
@@ -1358,7 +1361,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             Text(
                               'Шаг 2                                                                                                      ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontWeight: FontWeight.bold,
@@ -1369,7 +1372,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                   0.0, 10.0, 0.0, 0.0),
                               child: Text(
                                 'Налейте в нижний резервуар воды до уровня предохранительного клапана.\nКто-то наливает холодную, кто-то советует заливать сразу кипяток, аргументируя это тем, что так можно сэкономить время приготовления и избежать горчинки. Мы же советуем вам проявить творческую жилку и поэкспериментировать самим 😉 Но будьте осторожны при работе с кипятком: алюминий быстро нагревается – используйте прихватку, когда будете закручивать кофеварку, чтобы не обжечься.',
-                                style: FlutterFlowTheme.of(context).bodyText1,
+                                style: FlutterFlowTheme.of(context).bodyMedium,
                               ),
                             ),
                             Padding(
@@ -1381,7 +1384,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                   Text(
                                     'Совет:',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontWeight: FontWeight.bold,
@@ -1393,7 +1396,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                     child: Text(
                                       'используйте фильтрованную или',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             fontWeight: FontWeight.normal,
@@ -1405,7 +1408,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             ),
                             Text(
                               'бутилированную воду (лучше всего мягкую) – так кофе получится намного вкуснее.',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Row(
                               mainAxisSize: MainAxisSize.max,
@@ -1413,7 +1416,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                 Text(
                                   'Важно:',
                                   style: FlutterFlowTheme.of(context)
-                                      .bodyText1
+                                      .bodyMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         fontWeight: FontWeight.bold,
@@ -1425,7 +1428,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                   child: Text(
                                     'клапан должен остаться над водой – это ',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontWeight: FontWeight.normal,
@@ -1436,7 +1439,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             ),
                             Text(
                               'нужно для того, чтобы в случае перегрева кофеварки давление в нижнем резервуаре не превысило критической отметки.',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Row(
                               mainAxisSize: MainAxisSize.max,
@@ -1444,7 +1447,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                 Text(
                                   'Примечание:',
                                   style: FlutterFlowTheme.of(context)
-                                      .bodyText1
+                                      .bodyMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         fontWeight: FontWeight.bold,
@@ -1456,7 +1459,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                   child: Text(
                                     'если вы не хотите варить полный ',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontWeight: FontWeight.normal,
@@ -1467,7 +1470,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             ),
                             Text(
                               'объём кофеварки, вы можете попробовать сократить количество воды (примерно до половины – меньше не стоит). А вот налить больше, увы, не получится – из-за клапана.',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
@@ -1481,7 +1484,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             Text(
                               'Шаг 3                                                                                                                           ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontWeight: FontWeight.bold,
@@ -1489,7 +1492,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             ),
                             Text(
                               'Щедро наполните воронку молотым кофе. Не нужно утрамбовывать кофе, иначе вода попросту не сможет перейти в верхний резервуар.',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Row(
                               mainAxisSize: MainAxisSize.max,
@@ -1497,7 +1500,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                 Text(
                                   'Примечание: ',
                                   style: FlutterFlowTheme.of(context)
-                                      .bodyText1
+                                      .bodyMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         fontWeight: FontWeight.bold,
@@ -1505,13 +1508,14 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                 ),
                                 Text(
                                   'если вы не любите крепкий кофе (а ',
-                                  style: FlutterFlowTheme.of(context).bodyText1,
+                                  style:
+                                      FlutterFlowTheme.of(context).bodyMedium,
                                 ),
                               ],
                             ),
                             Text(
                               'гейзерные кофеварки рассчитаны на приготовление эспрессо), то вы можете сократить количество кофе (также примерно вполовину).',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
@@ -1525,7 +1529,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             Text(
                               'Шаг 4                                                                                                                         ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontWeight: FontWeight.bold,
@@ -1536,7 +1540,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                   0.0, 0.0, 0.0, 20.0),
                               child: Text(
                                 'Вставьте воронку в нижний резервуар, уберите излишки кофе с бортиков, чтобы они не прилипли к уплотнителю, и крепко прикрутите верхнюю часть на место. Опять же – держитесь за корпус.',
-                                style: FlutterFlowTheme.of(context).bodyText1,
+                                style: FlutterFlowTheme.of(context).bodyMedium,
                               ),
                             ),
                             Padding(
@@ -1551,7 +1555,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             Text(
                               'Шаг 5                                                                                                                             ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontWeight: FontWeight.bold,
@@ -1559,7 +1563,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             ),
                             Text(
                               'Поставьте кофеварку на плиту.\n\nМаленький секрет: варите кофе на медленном огне – лучше подождать на пару минут дольше, но получить идеальный кофе.\n\nВ любом случае важно помнить: греющая поверхность должна соответствовать по размеру дну кофеварки. Если вы готовите на газовой плите, следите за тем, чтобы огонь не выходил за границы дна.',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
@@ -1573,7 +1577,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             Text(
                               'Шаг 6                                                                                                                                    ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontWeight: FontWeight.bold,
@@ -1581,7 +1585,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             ),
                             Text(
                               '\nКак понять, что кофе готов: когда вы услышите журчание (или фырканье – кому как нравится) и увидите, что кофе полностью вышел в верхний резервуар, а из столбца выходит уже не кофе, а жидкая пена, снимите кофеварку с огня.',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
@@ -1595,7 +1599,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             Text(
                               'Шаг 7                                                                                                                    ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontWeight: FontWeight.bold,
@@ -1603,7 +1607,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             ),
                             Text(
                               '\nА теперь самый важный момент: для того, чтобы в полной мере насладиться ароматом кофе, мы настоятельно рекомендуем пить его сразу, как только вы налили его в чашку. Приятного кофепития!',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
@@ -1616,31 +1620,33 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                             ),
                             Text(
                               'Для наглядности вы также можете посмотреть видео:\n\nhttps://youtube.com/watch?v=xriHJTbq3fc%3Ffeature%3Doembed\nИ сразу ответим на несколько популярных вопросов:',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 20.0, 0.0, 20.0),
                               child: Text(
                                 'В нижнем резервуаре остаётся вода – что делать?',
-                                style: FlutterFlowTheme.of(context).title3,
+                                style:
+                                    FlutterFlowTheme.of(context).headlineSmall,
                               ),
                             ),
                             Text(
                               'Ничего. Это совершенно нормально, и не нужно заливать больше воды в начале приготовления – кофеварка уже спроектирована с расчётом на то, что не вся вода пройдёт через фильтр наверх.',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 20.0, 0.0, 20.0),
                               child: Text(
                                 'Можно ли заваривать чай или варить какао в гейзерной кофеварке?',
-                                style: FlutterFlowTheme.of(context).title3,
+                                style:
+                                    FlutterFlowTheme.of(context).headlineSmall,
                               ),
                             ),
                             Text(
                               'Нет. Гейзерная кофеварка предназначена исключительно для молотого кофе (быстрорастворимый кофе тоже исключается), и любой другой напиток может попросту испортить кофеварку. Какао порошок засорит фильтр, а если говорить о крупнолистовом чае, то вы просто не получите нужной экстракции, а вода скорее всего забьёт фонтаном от сильного давления и отсутствия «преграды».\n\nНадеемся, что теперь приготовление кофе в гейзерной кофеварке станет для вас простым и лёгким делом, а утро – добрее и интереснее!',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                           ],
                         ),
@@ -1709,7 +1715,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                   Text(
                                     'НОВЫЕ',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
@@ -1731,7 +1737,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                   Text(
                                     'СТАРЕЕ',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontWeight: FontWeight.bold,
@@ -1767,7 +1773,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                 child: Text(
                                   'ДОБАВИТЬ КОММЕНТАРИЙ',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: FlutterFlowTheme.of(context)
@@ -1782,7 +1788,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                 child: Text(
                                   'Ваш адрес email не будет опубликован. Обязательные поля помечены *',
                                   style: FlutterFlowTheme.of(context)
-                                      .bodyText1
+                                      .bodyMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         fontSize: 16.0,
@@ -1797,7 +1803,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                   child: Text(
                                     'Комментарий *',
                                     style:
-                                        FlutterFlowTheme.of(context).bodyText1,
+                                        FlutterFlowTheme.of(context).bodyMedium,
                                   ),
                                 ),
                               ),
@@ -1820,7 +1826,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                     obscureText: false,
                                     decoration: InputDecoration(
                                       hintStyle: FlutterFlowTheme.of(context)
-                                          .bodyText2,
+                                          .bodySmall,
                                       enabledBorder: UnderlineInputBorder(
                                         borderSide: BorderSide(
                                           color: Color(0x00000000),
@@ -1863,7 +1869,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                       ),
                                     ),
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 12.0,
@@ -1895,7 +1901,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                           child: Text(
                                             'Имя*',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1,
+                                                .bodyMedium,
                                           ),
                                         ),
                                         Padding(
@@ -1909,7 +1915,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                             decoration: InputDecoration(
                                               hintStyle:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText2
+                                                      .bodySmall
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         fontSize: 14.0,
@@ -1967,7 +1973,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                               ),
                                             ),
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   fontSize: 12.0,
@@ -1991,7 +1997,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                           child: Text(
                                             'Email*',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1,
+                                                .bodyMedium,
                                           ),
                                         ),
                                         Padding(
@@ -2005,7 +2011,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                             decoration: InputDecoration(
                                               hintStyle:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText2,
+                                                      .bodySmall,
                                               enabledBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
@@ -2059,7 +2065,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                               ),
                                             ),
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   fontSize: 12.0,
@@ -2083,7 +2089,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                           child: Text(
                                             'Сайт',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1,
+                                                .bodyMedium,
                                           ),
                                         ),
                                         Padding(
@@ -2097,7 +2103,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                             decoration: InputDecoration(
                                               hintStyle:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText2,
+                                                      .bodySmall,
                                               enabledBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
@@ -2151,7 +2157,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                               ),
                                             ),
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   fontSize: 12.0,
@@ -2196,7 +2202,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                     child: Text(
                                       ' Сохранить моё имя, email и адрес сайта в этом браузере для последующих моих комментариев.',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             fontSize: 16.0,
@@ -2224,7 +2230,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                       child: Text(
                                         'ОТПРАВИТЬ КОММЕНТАРИЙ',
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               color:
@@ -2256,7 +2262,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               child: Text(
                                 'ORIENT',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2271,7 +2277,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                 'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2285,7 +2291,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               child: Text(
                                 'Для клиентов',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2300,7 +2306,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                 'Вход/регистрация\nЛичный кабинет\nСтатус заказа',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2314,7 +2320,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               child: Text(
                                 'О нас',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2329,7 +2335,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                 'О нас\nОПТ\nДоставка',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2343,7 +2349,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                               child: Text(
                                 'Блог о кофе',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2358,7 +2364,7 @@ class _RecipesWidgetState extends State<RecipesWidget> {
                                 'Рецепты\nЭнциклопедия кофе',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),

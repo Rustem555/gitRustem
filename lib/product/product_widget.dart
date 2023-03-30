@@ -102,7 +102,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                             child: Text(
                               'КАТАЛОГ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -142,7 +142,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                             child: Text(
                               'ОПТ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -182,7 +182,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                             child: Text(
                               'РЕЦЕПТЫ ЗАВАРИВАНИЯ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -224,7 +224,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                             child: Text(
                               'ЭНЦИКЛОПЕДИЯ КОФЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -266,7 +266,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                             child: Text(
                               'ДОСТАВКА',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -306,7 +306,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                             child: Text(
                               'КОНТАКТЫ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -355,7 +355,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                             child: Text(
                               'ИЗБРАННОЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -390,12 +390,13 @@ class _ProductWidgetState extends State<ProductWidget> {
                               5.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'ВХОД/РЕГИСТРАЦИЯ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -454,7 +455,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                       child: Text(
                                         'КОРЗИНА',
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 24.0,
@@ -486,7 +487,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                           child: Text(
                                             'ЗАКРЫТЬ',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -573,7 +574,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -595,7 +596,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -625,7 +626,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -651,13 +652,13 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -746,7 +747,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -768,7 +769,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -798,7 +799,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -824,13 +825,13 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -893,7 +894,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                   child: Text(
                                     'ПОДЫТОГ:',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 22.0,
@@ -907,11 +908,11 @@ class _ProductWidgetState extends State<ProductWidget> {
                                   child: Text(
                                     '2 600 ₽',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
-                                              .secondaryColor,
+                                              .secondary,
                                           fontSize: 22.0,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -943,11 +944,12 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -976,7 +978,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                         color: FlutterFlowTheme.of(context)
                                             .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               color:
@@ -984,6 +986,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                       .primaryBtnText,
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -1031,9 +1034,9 @@ class _ProductWidgetState extends State<ProductWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.network(
-                          '',
-                          width: 25.0,
+                        child: Image.asset(
+                          'assets/images/loon-icon_(10).png',
+                          width: 35.0,
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -1099,7 +1102,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                   child: Text(
                                     '2',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
@@ -1153,7 +1156,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1272,7 +1275,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
-                                                                .bodyText1
+                                                                .bodyMedium
                                                                 .override(
                                                                   fontFamily:
                                                                       'Poppins',
@@ -1344,7 +1347,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                     child: Text(
                                       'Главная /Турка / ГВАТЕМАЛА Сан Себастьян 1 кг',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             fontSize: 18.0,
@@ -1357,7 +1360,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                     child: Text(
                                       'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                       style: FlutterFlowTheme.of(context)
-                                          .title3
+                                          .headlineSmall
                                           .override(
                                             fontFamily: 'Poppins',
                                             fontSize: 32.0,
@@ -1379,7 +1382,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                           child: Text(
                                             '1500 р.',
                                             style: FlutterFlowTheme.of(context)
-                                                .subtitle1
+                                                .titleMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: FlutterFlowTheme.of(
@@ -1394,7 +1397,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                         Text(
                                           '1 300 р.',
                                           style: FlutterFlowTheme.of(context)
-                                              .subtitle1
+                                              .titleMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -1413,7 +1416,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                     child: Text(
                                       'Помол:',
                                       style: FlutterFlowTheme.of(context)
-                                          .title3
+                                          .headlineSmall
                                           .override(
                                             fontFamily: 'Poppins',
                                             fontSize: 16.0,
@@ -1449,6 +1452,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                               onTap: () async {
                                                 await showModalBottomSheet(
                                                   isScrollControlled: true,
+                                                  backgroundColor: Colors.white,
                                                   enableDrag: false,
                                                   context: context,
                                                   builder: (context) {
@@ -1485,7 +1489,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -1538,7 +1542,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                         Text(
                                           'Очистить',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -1649,7 +1653,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                 textAlign: TextAlign.center,
                                                 style:
                                                     FlutterFlowTheme.of(context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           color: FlutterFlowTheme
@@ -1671,7 +1675,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                     child: Text(
                                       'Артикул Н/Д',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             fontSize: 16.0,
@@ -1685,7 +1689,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                     child: Text(
                                       'Категории Аэропресс, Гейзер, Иммерсия, Турка, Фильтр-машина',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             fontSize: 16.0,
@@ -1697,7 +1701,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                     'ПРОИСХОЖДЕНИЕ',
                                     textAlign: TextAlign.start,
                                     style: FlutterFlowTheme.of(context)
-                                        .subtitle1
+                                        .titleMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 20.0,
@@ -1707,7 +1711,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                   Text(
                                     'Уэуэтенанго — муниципалитет в западном нагорье Гватемалы, простирающийся до границы с Мексикой и включающий в себя множество микроклиматов на волнистых холмах и долинах. Это один из самых отдаленных и холмистых регионов выращивания кофе в Гватемале, и мелкие производители этого региона, как правило, очень хорошо владеют методами ведения сельского хозяйства.\nОбычно каждый кооператив сам занимаются полной обработкой кофе. К счастью, в регионе практически бесконечное количество рек и ручьев, поэтому станцию обработки можно расположить практически в любом месте.\n\nДанный лот был обработан и собран с нескольких мелких кооперативов и станций обработок возле города Сан Себастиан.',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 20.0,
@@ -1720,7 +1724,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                       'ОБРАБОТКА И ФЕРМЕНТАЦИЯ',
                                       textAlign: TextAlign.start,
                                       style: FlutterFlowTheme.of(context)
-                                          .subtitle1
+                                          .titleMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             fontSize: 20.0,
@@ -1731,7 +1735,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                   Text(
                                     'После сбора кофейные ягоды отсортировали и промыли в воде. Кофе был депульпирован и отправлен на ферментацию от 24 до 48 часов. После повторной промывки зерно отправилось на сушку на африканские кровати сроком от 15 до 20 дней.',
                                     style:
-                                        FlutterFlowTheme.of(context).bodyText1,
+                                        FlutterFlowTheme.of(context).bodyMedium,
                                   ),
                                 ],
                               ),
@@ -1742,7 +1746,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                               child: Text(
                                 'Вас могут заинтересовать:',
                                 style: FlutterFlowTheme.of(context)
-                                    .title3
+                                    .headlineSmall
                                     .override(
                                       fontFamily: 'Poppins',
                                       fontSize: 33.0,
@@ -1755,7 +1759,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                               child: Text(
                                 'ПОХОЖИЕ ТОВАРЫ',
                                 style: FlutterFlowTheme.of(context)
-                                    .title3
+                                    .headlineSmall
                                     .override(
                                       fontFamily: 'Poppins',
                                       fontSize: 33.0,
@@ -1880,7 +1884,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                                             child:
                                                                                 Text(
                                                                               '-13%',
-                                                                              style: FlutterFlowTheme.of(context).bodyText1.override(
+                                                                              style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                     fontFamily: 'Poppins',
                                                                                     color: FlutterFlowTheme.of(context).primaryBtnText,
                                                                                     fontSize: 13.0,
@@ -1938,7 +1942,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                             TextAlign.center,
                                                         style: FlutterFlowTheme
                                                                 .of(context)
-                                                            .bodyText1
+                                                            .bodyMedium
                                                             .override(
                                                               fontFamily:
                                                                   'Poppins',
@@ -1963,7 +1967,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                               TextAlign.center,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -1990,7 +1994,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                               '1 500 ₽',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -2007,7 +2011,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                             '1 300 ₽',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
-                                                                .bodyText1
+                                                                .bodyMedium
                                                                 .override(
                                                                   fontFamily:
                                                                       'Poppins',
@@ -2047,7 +2051,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                                 .center,
                                                             style: FlutterFlowTheme
                                                                     .of(context)
-                                                                .bodyText1
+                                                                .bodyMedium
                                                                 .override(
                                                                   fontFamily:
                                                                       'Poppins',
@@ -2147,7 +2151,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                                             child:
                                                                                 Text(
                                                                               '-13%',
-                                                                              style: FlutterFlowTheme.of(context).bodyText1.override(
+                                                                              style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                     fontFamily: 'Poppins',
                                                                                     color: FlutterFlowTheme.of(context).primaryBtnText,
                                                                                     fontSize: 13.0,
@@ -2205,7 +2209,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                             TextAlign.center,
                                                         style: FlutterFlowTheme
                                                                 .of(context)
-                                                            .bodyText1
+                                                            .bodyMedium
                                                             .override(
                                                               fontFamily:
                                                                   'Poppins',
@@ -2230,7 +2234,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                               TextAlign.center,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -2257,7 +2261,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                               '1 500 ₽',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -2274,7 +2278,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                             '1 300 ₽',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
-                                                                .bodyText1
+                                                                .bodyMedium
                                                                 .override(
                                                                   fontFamily:
                                                                       'Poppins',
@@ -2314,7 +2318,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                                 .center,
                                                             style: FlutterFlowTheme
                                                                     .of(context)
-                                                                .bodyText1
+                                                                .bodyMedium
                                                                 .override(
                                                                   fontFamily:
                                                                       'Poppins',
@@ -2427,7 +2431,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                                             child:
                                                                                 Text(
                                                                               '-13%',
-                                                                              style: FlutterFlowTheme.of(context).bodyText1.override(
+                                                                              style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                     fontFamily: 'Poppins',
                                                                                     color: FlutterFlowTheme.of(context).primaryBtnText,
                                                                                     fontSize: 13.0,
@@ -2485,7 +2489,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                             TextAlign.center,
                                                         style: FlutterFlowTheme
                                                                 .of(context)
-                                                            .bodyText1
+                                                            .bodyMedium
                                                             .override(
                                                               fontFamily:
                                                                   'Poppins',
@@ -2510,7 +2514,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                               TextAlign.center,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -2537,7 +2541,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                               '1 500 ₽',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -2554,7 +2558,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                             '1 300 ₽',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
-                                                                .bodyText1
+                                                                .bodyMedium
                                                                 .override(
                                                                   fontFamily:
                                                                       'Poppins',
@@ -2594,7 +2598,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                                 .center,
                                                             style: FlutterFlowTheme
                                                                     .of(context)
-                                                                .bodyText1
+                                                                .bodyMedium
                                                                 .override(
                                                                   fontFamily:
                                                                       'Poppins',
@@ -2694,7 +2698,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                                             child:
                                                                                 Text(
                                                                               '-13%',
-                                                                              style: FlutterFlowTheme.of(context).bodyText1.override(
+                                                                              style: FlutterFlowTheme.of(context).bodyMedium.override(
                                                                                     fontFamily: 'Poppins',
                                                                                     color: FlutterFlowTheme.of(context).primaryBtnText,
                                                                                     fontSize: 13.0,
@@ -2752,7 +2756,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                             TextAlign.center,
                                                         style: FlutterFlowTheme
                                                                 .of(context)
-                                                            .bodyText1
+                                                            .bodyMedium
                                                             .override(
                                                               fontFamily:
                                                                   'Poppins',
@@ -2777,7 +2781,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                               TextAlign.center,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -2804,7 +2808,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                               '1 500 ₽',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -2821,7 +2825,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                             '1 300 ₽',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
-                                                                .bodyText1
+                                                                .bodyMedium
                                                                 .override(
                                                                   fontFamily:
                                                                       'Poppins',
@@ -2861,7 +2865,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                                 .center,
                                                             style: FlutterFlowTheme
                                                                     .of(context)
-                                                                .bodyText1
+                                                                .bodyMedium
                                                                 .override(
                                                                   fontFamily:
                                                                       'Poppins',
@@ -2937,7 +2941,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                     child: Text(
                                       'ORIENT',
                                       style: FlutterFlowTheme.of(context)
-                                          .title2
+                                          .headlineMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: Color(0xFF110011),
@@ -2952,7 +2956,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                       'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
-                                          .title2
+                                          .headlineMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: Color(0xFF110011),
@@ -2966,7 +2970,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                     child: Text(
                                       'Для клиентов',
                                       style: FlutterFlowTheme.of(context)
-                                          .title2
+                                          .headlineMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: Color(0xFF110011),
@@ -2981,7 +2985,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                       'Вход/регистрация\nЛичный кабинет\nСтатус заказа',
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
-                                          .title2
+                                          .headlineMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: Color(0xFF110011),
@@ -2995,7 +2999,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                     child: Text(
                                       'О нас',
                                       style: FlutterFlowTheme.of(context)
-                                          .title2
+                                          .headlineMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: Color(0xFF110011),
@@ -3010,7 +3014,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                       'О нас\nОПТ\nДоставка',
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
-                                          .title2
+                                          .headlineMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: Color(0xFF110011),
@@ -3024,7 +3028,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                     child: Text(
                                       'Блог о кофе',
                                       style: FlutterFlowTheme.of(context)
-                                          .title2
+                                          .headlineMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: Color(0xFF110011),
@@ -3039,7 +3043,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                       'Рецепты\nЭнциклопедия кофе',
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
-                                          .title2
+                                          .headlineMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: Color(0xFF110011),

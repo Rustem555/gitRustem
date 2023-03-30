@@ -91,7 +91,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                             child: Text(
                               'КАТАЛОГ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -131,7 +131,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                             child: Text(
                               'ОПТ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -171,7 +171,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                             child: Text(
                               'РЕЦЕПТЫ ЗАВАРИВАНИЯ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -213,7 +213,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                             child: Text(
                               'ЭНЦИКЛОПЕДИЯ КОФЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -255,7 +255,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                             child: Text(
                               'ДОСТАВКА',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -295,7 +295,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                             child: Text(
                               'КОНТАКТЫ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -344,7 +344,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                             child: Text(
                               'ИЗБРАННОЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -379,12 +379,13 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                               5.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'ВХОД/РЕГИСТРАЦИЯ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -443,7 +444,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                       child: Text(
                                         'КОРЗИНА',
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 24.0,
@@ -475,7 +476,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                           child: Text(
                                             'ЗАКРЫТЬ',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -562,7 +563,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -584,7 +585,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -614,7 +615,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -640,13 +641,13 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -735,7 +736,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -757,7 +758,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -787,7 +788,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -813,13 +814,13 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -882,7 +883,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                   child: Text(
                                     'ПОДЫТОГ:',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 22.0,
@@ -896,11 +897,11 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                   child: Text(
                                     '2 600 ₽',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
-                                              .secondaryColor,
+                                              .secondary,
                                           fontSize: 22.0,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -932,11 +933,12 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -965,7 +967,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                         color: FlutterFlowTheme.of(context)
                                             .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               color:
@@ -973,6 +975,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                       .primaryBtnText,
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -1020,9 +1023,9 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.network(
-                          '',
-                          width: 25.0,
+                        child: Image.asset(
+                          'assets/images/loon-icon_(10).png',
+                          width: 35.0,
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -1094,7 +1097,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1134,7 +1137,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                   child: Text(
                                     '2',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
@@ -1164,7 +1167,9 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                         child: Text(
                           'ИЗБРАННЫЕ ТОВАРЫ',
                           textAlign: TextAlign.center,
-                          style: FlutterFlowTheme.of(context).title2.override(
+                          style: FlutterFlowTheme.of(context)
+                              .headlineMedium
+                              .override(
                                 fontFamily: 'Poppins',
                                 color: Color(0xFF110011),
                                 fontSize: 25.0,
@@ -1206,7 +1211,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                               'Удалить',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         fontSize: 19.0,
@@ -1292,7 +1297,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                               '-13%',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -1318,7 +1323,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                         'Гватемала Сан Себастьян\n 1 кг',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 14.0,
@@ -1336,7 +1341,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                           'Аэроэкспресс, Гейзер, Иммерсия, Турка, Фильтр-машина',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -1357,7 +1362,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                               '1 500 ₽',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
@@ -1373,7 +1378,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                           Text(
                                             '1 300 ₽',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -1400,7 +1405,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                             'ВЫБЕРИТЕ \nПАРАМЕТРЫ',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: FlutterFlowTheme.of(
@@ -1431,7 +1436,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                               'Удалить',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         fontSize: 19.0,
@@ -1517,7 +1522,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                               '-13%',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -1543,7 +1548,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                         'Гватемала Сан Себастьян\n 1 кг',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 14.0,
@@ -1561,7 +1566,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                           'Аэроэкспресс, Гейзер, Иммерсия, Турка, Фильтр-машина',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -1582,7 +1587,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                               '1 500 ₽',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
@@ -1598,7 +1603,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                           Text(
                                             '1 300 ₽',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -1625,7 +1630,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                             'ВЫБЕРИТЕ \nПАРАМЕТРЫ',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: FlutterFlowTheme.of(
@@ -1667,7 +1672,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                               'Удалить',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         fontSize: 19.0,
@@ -1753,7 +1758,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                                               '-13%',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -1779,7 +1784,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                         'Гватемала Сан Себастьян\n 1 кг',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 14.0,
@@ -1797,7 +1802,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                           'Аэроэкспресс, Гейзер, Иммерсия, Турка, Фильтр-машина',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -1818,7 +1823,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                               '1 500 ₽',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
@@ -1834,7 +1839,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                           Text(
                                             '1 300 ₽',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -1861,7 +1866,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                             'ВЫБЕРИТЕ \nПАРАМЕТРЫ',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: FlutterFlowTheme.of(
@@ -1895,7 +1900,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                             'НЕВИДИМЫЙ ЭЛЕМЕНТ',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: FlutterFlowTheme.of(
@@ -1931,7 +1936,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                 child: Text(
                                   'ORIENT',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -1946,7 +1951,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                   'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -1960,7 +1965,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                 child: Text(
                                   'Для клиентов',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -1975,7 +1980,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                   'Вход/регистрация\nЛичный кабинет\nСтатус заказа',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -1989,7 +1994,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                 child: Text(
                                   'О нас',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -2004,7 +2009,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                   'О нас\nОПТ\nДоставка',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -2018,7 +2023,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                 child: Text(
                                   'Блог о кофе',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -2033,7 +2038,7 @@ class _FavoritesWidgetState extends State<FavoritesWidget> {
                                   'Рецепты\nЭнциклопедия кофе',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),

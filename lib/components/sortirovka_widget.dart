@@ -102,7 +102,7 @@ class _SortirovkaWidgetState extends State<SortirovkaWidget> {
                             },
                             title: Text(
                               'Исходная сортировка',
-                              style: FlutterFlowTheme.of(context).title3,
+                              style: FlutterFlowTheme.of(context).headlineSmall,
                             ),
                             tileColor: FlutterFlowTheme.of(context).primaryText,
                             activeColor:
@@ -137,7 +137,7 @@ class _SortirovkaWidgetState extends State<SortirovkaWidget> {
                             },
                             title: Text(
                               'По популярности',
-                              style: FlutterFlowTheme.of(context).title3,
+                              style: FlutterFlowTheme.of(context).headlineSmall,
                             ),
                             tileColor: FlutterFlowTheme.of(context).primaryText,
                             activeColor:
@@ -172,7 +172,7 @@ class _SortirovkaWidgetState extends State<SortirovkaWidget> {
                             },
                             title: Text(
                               'По рейтингу',
-                              style: FlutterFlowTheme.of(context).title3,
+                              style: FlutterFlowTheme.of(context).headlineSmall,
                             ),
                             tileColor: FlutterFlowTheme.of(context).primaryText,
                             activeColor:
@@ -207,7 +207,7 @@ class _SortirovkaWidgetState extends State<SortirovkaWidget> {
                             },
                             title: Text(
                               'Сортировка от последнего',
-                              style: FlutterFlowTheme.of(context).title3,
+                              style: FlutterFlowTheme.of(context).headlineSmall,
                             ),
                             tileColor: FlutterFlowTheme.of(context).primaryText,
                             activeColor:
@@ -242,7 +242,7 @@ class _SortirovkaWidgetState extends State<SortirovkaWidget> {
                             },
                             title: Text(
                               'Ценф: по возрастанию',
-                              style: FlutterFlowTheme.of(context).title3,
+                              style: FlutterFlowTheme.of(context).headlineSmall,
                             ),
                             tileColor: FlutterFlowTheme.of(context).primaryText,
                             activeColor:
@@ -277,7 +277,7 @@ class _SortirovkaWidgetState extends State<SortirovkaWidget> {
                             },
                             title: Text(
                               'Цены: по убыванию',
-                              style: FlutterFlowTheme.of(context).title3,
+                              style: FlutterFlowTheme.of(context).headlineSmall,
                             ),
                             tileColor: FlutterFlowTheme.of(context).primaryText,
                             activeColor:

@@ -91,7 +91,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                             child: Text(
                               'КАТАЛОГ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -131,7 +131,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                             child: Text(
                               'ОПТ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -171,7 +171,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                             child: Text(
                               'РЕЦЕПТЫ ЗАВАРИВАНИЯ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -213,7 +213,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                             child: Text(
                               'ЭНЦИКЛОПЕДИЯ КОФЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -255,7 +255,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                             child: Text(
                               'ДОСТАВКА',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -295,7 +295,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                             child: Text(
                               'КОНТАКТЫ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -344,7 +344,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                             child: Text(
                               'ИЗБРАННОЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -379,12 +379,13 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                               5.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'ВХОД/РЕГИСТРАЦИЯ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -443,7 +444,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                       child: Text(
                                         'КОРЗИНА',
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 24.0,
@@ -475,7 +476,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                           child: Text(
                                             'ЗАКРЫТЬ',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -562,7 +563,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -584,7 +585,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -614,7 +615,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -640,13 +641,13 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -735,7 +736,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -757,7 +758,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -787,7 +788,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -813,13 +814,13 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -882,7 +883,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                   child: Text(
                                     'ПОДЫТОГ:',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 22.0,
@@ -896,11 +897,11 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                   child: Text(
                                     '2 600 ₽',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
-                                              .secondaryColor,
+                                              .secondary,
                                           fontSize: 22.0,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -932,11 +933,12 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -965,7 +967,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                         color: FlutterFlowTheme.of(context)
                                             .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               color:
@@ -973,6 +975,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                                       .primaryBtnText,
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -1020,9 +1023,9 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.network(
-                          '',
-                          width: 25.0,
+                        child: Image.asset(
+                          'assets/images/loon-icon_(10).png',
+                          width: 35.0,
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -1094,7 +1097,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1149,7 +1152,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1179,7 +1182,9 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                             15.0, 40.0, 0.0, 20.0),
                         child: Text(
                           'Доставка',
-                          style: FlutterFlowTheme.of(context).title2.override(
+                          style: FlutterFlowTheme.of(context)
+                              .headlineMedium
+                              .override(
                                 fontFamily: 'Poppins',
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 30.0,
@@ -1192,7 +1197,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                         child: Text(
                           'Оформите заказ сегодня На следующий день Ваш заказ будет обжарен, зафасован и передан в доставку Курьерские службы постараются доставить как можно быстрее, от 1 дня Ваш заказ у Вас в руках! Наслаждайтесь погружением в мир кофе!',
                           style:
-                              FlutterFlowTheme.of(context).subtitle1.override(
+                              FlutterFlowTheme.of(context).titleMedium.override(
                                     fontFamily: 'Poppins',
                                     fontSize: 18.0,
                                   ),
@@ -1203,7 +1208,9 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                             15.0, 30.0, 15.0, 20.0),
                         child: Text(
                           'Политика возврата товара',
-                          style: FlutterFlowTheme.of(context).title2.override(
+                          style: FlutterFlowTheme.of(context)
+                              .headlineMedium
+                              .override(
                                 fontFamily: 'Poppins',
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 28.0,
@@ -1216,7 +1223,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                         child: Text(
                           'Качество – это самый важный аспект в нашей работе. Мы создаем продукт, которым гордимся. С первого момента знакомства с зерном начинается путь исследований и улучшений. Вначале, изучаются свойства (высота произрастания, разновидность, способ обработки и т. д.).\n\nЗатем, формируется профиль, путем нескольких обжарок с разными параметрами и выбора лучшего из полученных результатов. И последний, но самый важный этап работы с качеством – это поддержание и отслеживание результатов каждой отгружаемой партии.\n\nВ нашей команде 3 Q-грейдера. Все вкусовые характеристики и оценки фиксируются в программе и в архиве. Для того, чтобы получить наилучший результат в чашке, на пачке Вы найдете рекомендации по всем аспектам – вода, график выхода зерна на пик вкуса, QR на полное описание лота и рекомендуемые рецепты заваривания.',
                           style:
-                              FlutterFlowTheme.of(context).subtitle1.override(
+                              FlutterFlowTheme.of(context).titleMedium.override(
                                     fontFamily: 'Poppins',
                                     fontSize: 18.0,
                                   ),
@@ -1245,7 +1252,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                               child: Text(
                                 'ORIENT',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1260,7 +1267,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                 'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1274,7 +1281,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                               child: Text(
                                 'Для клиентов',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1289,7 +1296,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                 'Вход/регистрация\nЛичный кабинет\nСтатус заказа',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1303,7 +1310,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                               child: Text(
                                 'О нас',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1318,7 +1325,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                 'О нас\nОПТ\nДоставка',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1332,7 +1339,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                               child: Text(
                                 'Блог о кофе',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1347,7 +1354,7 @@ class _DeliveryWidgetState extends State<DeliveryWidget> {
                                 'Рецепты\nЭнциклопедия кофе',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),

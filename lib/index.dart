@@ -10,3 +10,4 @@ export '/favorites/favorites_widget.dart' show FavoritesWidget;
 export '/product/product_widget.dart' show ProductWidget;
 export '/registration/registration_widget.dart' show RegistrationWidget;
 export '/empty_cart/empty_cart_widget.dart' show EmptyCartWidget;
+export '/payment/payment_widget.dart' show PaymentWidget;

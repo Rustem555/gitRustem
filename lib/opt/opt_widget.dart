@@ -77,12 +77,13 @@ class _OptWidgetState extends State<OptWidget> {
                               19.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'КАТАЛОГ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -116,7 +117,7 @@ class _OptWidgetState extends State<OptWidget> {
                             child: Text(
                               'ОПТ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -156,7 +157,7 @@ class _OptWidgetState extends State<OptWidget> {
                             child: Text(
                               'РЕЦЕПТЫ ЗАВАРИВАНИЯ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -185,7 +186,7 @@ class _OptWidgetState extends State<OptWidget> {
                           child: Text(
                             'ЭНЦИКЛОПЕДИЯ КОФЕ',
                             style: FlutterFlowTheme.of(context)
-                                .bodyText1
+                                .bodyMedium
                                 .override(
                                   fontFamily: 'Poppins',
                                   color: FlutterFlowTheme.of(context).blueText,
@@ -225,7 +226,7 @@ class _OptWidgetState extends State<OptWidget> {
                             child: Text(
                               'ДОСТАВКА',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -251,12 +252,13 @@ class _OptWidgetState extends State<OptWidget> {
                               19.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'КОНТАКТЫ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -285,12 +287,13 @@ class _OptWidgetState extends State<OptWidget> {
                               10.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'ИЗБРАННОЕ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -319,12 +322,13 @@ class _OptWidgetState extends State<OptWidget> {
                               5.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'ВХОД/РЕГИСТРАЦИЯ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -383,7 +387,7 @@ class _OptWidgetState extends State<OptWidget> {
                                       child: Text(
                                         'КОРЗИНА',
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 24.0,
@@ -415,7 +419,7 @@ class _OptWidgetState extends State<OptWidget> {
                                           child: Text(
                                             'ЗАКРЫТЬ',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -502,7 +506,7 @@ class _OptWidgetState extends State<OptWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -524,7 +528,7 @@ class _OptWidgetState extends State<OptWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -554,7 +558,7 @@ class _OptWidgetState extends State<OptWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -580,13 +584,13 @@ class _OptWidgetState extends State<OptWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -675,7 +679,7 @@ class _OptWidgetState extends State<OptWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -697,7 +701,7 @@ class _OptWidgetState extends State<OptWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -727,7 +731,7 @@ class _OptWidgetState extends State<OptWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -753,13 +757,13 @@ class _OptWidgetState extends State<OptWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -822,7 +826,7 @@ class _OptWidgetState extends State<OptWidget> {
                                   child: Text(
                                     'ПОДЫТОГ:',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 22.0,
@@ -836,11 +840,11 @@ class _OptWidgetState extends State<OptWidget> {
                                   child: Text(
                                     '2 600 ₽',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
-                                              .secondaryColor,
+                                              .secondary,
                                           fontSize: 22.0,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -872,11 +876,12 @@ class _OptWidgetState extends State<OptWidget> {
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -905,7 +910,7 @@ class _OptWidgetState extends State<OptWidget> {
                                         color: FlutterFlowTheme.of(context)
                                             .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               color:
@@ -913,6 +918,7 @@ class _OptWidgetState extends State<OptWidget> {
                                                       .primaryBtnText,
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -960,9 +966,9 @@ class _OptWidgetState extends State<OptWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.network(
-                          '',
-                          width: 25.0,
+                        child: Image.asset(
+                          'assets/images/loon-icon_(10).png',
+                          width: 35.0,
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -1034,7 +1040,7 @@ class _OptWidgetState extends State<OptWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1092,7 +1098,7 @@ class _OptWidgetState extends State<OptWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1138,7 +1144,7 @@ class _OptWidgetState extends State<OptWidget> {
                               child: Text(
                                 'Оптовые поставки свежеобжаренного кофе',
                                 style: FlutterFlowTheme.of(context)
-                                    .title3
+                                    .headlineSmall
                                     .override(
                                       fontFamily: 'Poppins',
                                       fontSize: 26.0,
@@ -1148,7 +1154,7 @@ class _OptWidgetState extends State<OptWidget> {
                             Text(
                               'Мы автоматизируем производство и закупаем кофе напрямую из стран произрастания – так мы оптимизируем процессы для отличной цены и большого ассортимента.',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 18.0,
@@ -1162,7 +1168,7 @@ class _OptWidgetState extends State<OptWidget> {
                                 child: Text(
                                   'Оплата',
                                   style: FlutterFlowTheme.of(context)
-                                      .title3
+                                      .headlineSmall
                                       .override(
                                         fontFamily: 'Poppins',
                                         fontSize: 26.0,
@@ -1173,7 +1179,7 @@ class _OptWidgetState extends State<OptWidget> {
                             Text(
                               'при получении наличными или картой\nонлайн оплата на сайте\nпо счету для юридических лиц с НДС и без НДС\n\nОнлайн оплата происходит через ПАО СБЕРБАНК картами МИР. Также доступна оплата через Apple Pay, Google Pay и Samsung Pay.',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 18.0,
@@ -1187,7 +1193,7 @@ class _OptWidgetState extends State<OptWidget> {
                                 child: Text(
                                   'Оплата для юридических лиц',
                                   style: FlutterFlowTheme.of(context)
-                                      .bodyText1
+                                      .bodyMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         fontSize: 18.0,
@@ -1202,7 +1208,7 @@ class _OptWidgetState extends State<OptWidget> {
                               child: Text(
                                 'Обращаем ваше внимание на то, что кофе является продуктом питания, поэтому вы можете осуществить возврат, только если нарушена упаковка, истёк срок хранения или продукт испорчен. Однако, если вкус кофе не соответствует вашим ожиданиям, вы можете связаться с нашими специалистами и они смогут вас проконсультировать.',
                                 style: FlutterFlowTheme.of(context)
-                                    .bodyText1
+                                    .bodyMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       fontSize: 18.0,
@@ -1226,7 +1232,7 @@ class _OptWidgetState extends State<OptWidget> {
                               child: Text(
                                 'ORIENT',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1241,7 +1247,7 @@ class _OptWidgetState extends State<OptWidget> {
                                 'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1255,7 +1261,7 @@ class _OptWidgetState extends State<OptWidget> {
                               child: Text(
                                 'Для клиентов',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1270,7 +1276,7 @@ class _OptWidgetState extends State<OptWidget> {
                                 'Вход/регистрация\nЛичный кабинет\nСтатус заказа',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1284,7 +1290,7 @@ class _OptWidgetState extends State<OptWidget> {
                               child: Text(
                                 'О нас',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1299,7 +1305,7 @@ class _OptWidgetState extends State<OptWidget> {
                                 'О нас\nОПТ\nДоставка',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1313,7 +1319,7 @@ class _OptWidgetState extends State<OptWidget> {
                               child: Text(
                                 'Блог о кофе',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1328,7 +1334,7 @@ class _OptWidgetState extends State<OptWidget> {
                                 'Рецепты\nЭнциклопедия кофе',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),

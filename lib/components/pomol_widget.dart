@@ -102,7 +102,7 @@ class _PomolWidgetState extends State<PomolWidget> {
                             },
                             title: Text(
                               'Выбрать опцию',
-                              style: FlutterFlowTheme.of(context).title3,
+                              style: FlutterFlowTheme.of(context).headlineSmall,
                             ),
                             tileColor: FlutterFlowTheme.of(context).primaryText,
                             activeColor:
@@ -137,7 +137,7 @@ class _PomolWidgetState extends State<PomolWidget> {
                             },
                             title: Text(
                               'Гейзер',
-                              style: FlutterFlowTheme.of(context).title3,
+                              style: FlutterFlowTheme.of(context).headlineSmall,
                             ),
                             tileColor: FlutterFlowTheme.of(context).primaryText,
                             activeColor:
@@ -172,7 +172,7 @@ class _PomolWidgetState extends State<PomolWidget> {
                             },
                             title: Text(
                               'Турка',
-                              style: FlutterFlowTheme.of(context).title3,
+                              style: FlutterFlowTheme.of(context).headlineSmall,
                             ),
                             tileColor: FlutterFlowTheme.of(context).primaryText,
                             activeColor:
@@ -207,7 +207,7 @@ class _PomolWidgetState extends State<PomolWidget> {
                             },
                             title: Text(
                               'Эспрессо',
-                              style: FlutterFlowTheme.of(context).title3,
+                              style: FlutterFlowTheme.of(context).headlineSmall,
                             ),
                             tileColor: FlutterFlowTheme.of(context).primaryText,
                             activeColor:

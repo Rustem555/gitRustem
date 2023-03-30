@@ -93,7 +93,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                             child: Text(
                               'КАТАЛОГ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -133,7 +133,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                             child: Text(
                               'ОПТ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -173,7 +173,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                             child: Text(
                               'РЕЦЕПТЫ ЗАВАРИВАНИЯ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -215,7 +215,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                             child: Text(
                               'ЭНЦИКЛОПЕДИЯ КОФЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -257,7 +257,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                             child: Text(
                               'ДОСТАВКА',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -297,7 +297,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                             child: Text(
                               'КОНТАКТЫ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -346,7 +346,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                             child: Text(
                               'ИЗБРАННОЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -381,12 +381,13 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                               5.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'ВХОД/РЕГИСТРАЦИЯ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -445,7 +446,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                       child: Text(
                                         'КОРЗИНА',
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 24.0,
@@ -477,7 +478,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                           child: Text(
                                             'ЗАКРЫТЬ',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -564,7 +565,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -586,7 +587,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -616,7 +617,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -642,13 +643,13 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -737,7 +738,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -759,7 +760,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -789,7 +790,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -815,13 +816,13 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -884,7 +885,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                   child: Text(
                                     'ПОДЫТОГ:',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 22.0,
@@ -898,11 +899,11 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                   child: Text(
                                     '2 600 ₽',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
-                                              .secondaryColor,
+                                              .secondary,
                                           fontSize: 22.0,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -934,11 +935,12 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -967,7 +969,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                         color: FlutterFlowTheme.of(context)
                                             .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               color:
@@ -975,6 +977,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                                       .primaryBtnText,
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -1022,9 +1025,9 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.network(
-                          '',
-                          width: 25.0,
+                        child: Image.asset(
+                          'assets/images/loon-icon_(10).png',
+                          width: 35.0,
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -1096,7 +1099,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1151,7 +1154,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1204,7 +1207,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                   child: Text(
                                     'Ошибка: Пожалуйста, укажите действующий адрес электронной почты.',
                                     style: FlutterFlowTheme.of(context)
-                                        .title2
+                                        .headlineMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
@@ -1223,7 +1226,9 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                             15.0, 40.0, 0.0, 20.0),
                         child: Text(
                           'РЕГИСТРАЦИЯ',
-                          style: FlutterFlowTheme.of(context).title2.override(
+                          style: FlutterFlowTheme.of(context)
+                              .headlineMedium
+                              .override(
                                 fontFamily: 'Poppins',
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 30.0,
@@ -1236,7 +1241,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                         child: Text(
                           'Email*',
                           style:
-                              FlutterFlowTheme.of(context).subtitle1.override(
+                              FlutterFlowTheme.of(context).titleMedium.override(
                                     fontFamily: 'Poppins',
                                     fontSize: 18.0,
                                   ),
@@ -1267,7 +1272,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                     obscureText: false,
                                     decoration: InputDecoration(
                                       hintStyle: FlutterFlowTheme.of(context)
-                                          .bodyText2,
+                                          .bodySmall,
                                       enabledBorder: UnderlineInputBorder(
                                         borderSide: BorderSide(
                                           color: Color(0x00000000),
@@ -1310,7 +1315,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                       ),
                                     ),
                                     style:
-                                        FlutterFlowTheme.of(context).bodyText1,
+                                        FlutterFlowTheme.of(context).bodyMedium,
                                     validator: _model.textControllerValidator
                                         .asValidator(context),
                                   ),
@@ -1326,7 +1331,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                         child: Text(
                           'A password will be sent to your email address.',
                           style:
-                              FlutterFlowTheme.of(context).subtitle1.override(
+                              FlutterFlowTheme.of(context).titleMedium.override(
                                     fontFamily: 'Poppins',
                                     fontSize: 14.0,
                                   ),
@@ -1338,7 +1343,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                         child: Text(
                           'Ваши личные данные будут использоваться для упрощения вашего дальнейшего взаимодействия с сайтом, управления доступом к вашему аккаунту и других целей, описанных в документе политика конфиденциальности.',
                           style:
-                              FlutterFlowTheme.of(context).subtitle1.override(
+                              FlutterFlowTheme.of(context).titleMedium.override(
                                     fontFamily: 'Poppins',
                                     fontSize: 15.0,
                                   ),
@@ -1360,7 +1365,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                               child: Text(
                                 'РЕГИСТРАЦИЯ',
                                 style: FlutterFlowTheme.of(context)
-                                    .subtitle1
+                                    .titleMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: FlutterFlowTheme.of(context)
@@ -1386,7 +1391,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                             child: Text(
                               'ВОЙТИ',
                               style: FlutterFlowTheme.of(context)
-                                  .subtitle1
+                                  .titleMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color: FlutterFlowTheme.of(context)
@@ -1435,7 +1440,8 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                 ),
                                 Text(
                                   'Запомнить меня',
-                                  style: FlutterFlowTheme.of(context).bodyText1,
+                                  style:
+                                      FlutterFlowTheme.of(context).bodyMedium,
                                 ),
                               ],
                             ),
@@ -1444,7 +1450,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                   0.0, 0.0, 15.0, 0.0),
                               child: Text(
                                 'Забыли пароль?',
-                                style: FlutterFlowTheme.of(context).bodyText1,
+                                style: FlutterFlowTheme.of(context).bodyMedium,
                               ),
                             ),
                           ],
@@ -1478,7 +1484,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                             Text(
                               'или',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 22.0,
@@ -1509,12 +1515,13 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                               0.0, 20.0, 0.0, 20.0),
                           child: Text(
                             'LOGIN',
-                            style:
-                                FlutterFlowTheme.of(context).subtitle1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 26.0,
-                                      fontWeight: FontWeight.w300,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .titleMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 26.0,
+                                  fontWeight: FontWeight.w300,
+                                ),
                           ),
                         ),
                       ),
@@ -1525,12 +1532,13 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                               0.0, 20.0, 0.0, 20.0),
                           child: Text(
                             'Заполните форму',
-                            style:
-                                FlutterFlowTheme.of(context).subtitle1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 18.0,
-                                      fontWeight: FontWeight.w300,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .titleMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 18.0,
+                                  fontWeight: FontWeight.w300,
+                                ),
                           ),
                         ),
                       ),
@@ -1552,7 +1560,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                 'ВХОД',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .subtitle1
+                                    .titleMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       fontSize: 18.0,
@@ -1579,7 +1587,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                 'РЕГИСТРАЦИЯ',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .subtitle1
+                                    .titleMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       fontSize: 18.0,
@@ -1607,7 +1615,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                 child: Text(
                                   'ORIENT',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -1622,7 +1630,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                   'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -1636,7 +1644,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                 child: Text(
                                   'Для клиентов',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -1651,7 +1659,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                   'Вход/регистрация\nЛичный кабинет\nСтатус заказа',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -1665,7 +1673,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                 child: Text(
                                   'О нас',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -1680,7 +1688,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                   'О нас\nОПТ\nДоставка',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -1694,7 +1702,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                 child: Text(
                                   'Блог о кофе',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -1709,7 +1717,7 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                                   'Рецепты\nЭнциклопедия кофе',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),

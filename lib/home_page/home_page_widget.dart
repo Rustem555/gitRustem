@@ -93,7 +93,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             child: Text(
                               'КАТАЛОГ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -133,7 +133,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             child: Text(
                               'ОПТ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -173,7 +173,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             child: Text(
                               'РЕЦЕПТЫ ЗАВАРИВАНИЯ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -215,7 +215,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             child: Text(
                               'ЭНЦИКЛОПЕДИЯ КОФЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -257,7 +257,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             child: Text(
                               'ДОСТАВКА',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -297,7 +297,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             child: Text(
                               'КОНТАКТЫ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -346,7 +346,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             child: Text(
                               'ИЗБРАННОЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -381,12 +381,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               5.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'ВХОД/РЕГИСТРАЦИЯ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -445,7 +446,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       child: Text(
                                         'КОРЗИНА',
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 24.0,
@@ -477,7 +478,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           child: Text(
                                             'ЗАКРЫТЬ',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -564,7 +565,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -586,7 +587,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -616,7 +617,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -642,13 +643,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -737,7 +738,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -759,7 +760,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -789,7 +790,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -815,13 +816,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -884,7 +885,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   child: Text(
                                     'ПОДЫТОГ:',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 22.0,
@@ -898,11 +899,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   child: Text(
                                     '2 600 ₽',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
-                                              .secondaryColor,
+                                              .secondary,
                                           fontSize: 22.0,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -934,11 +935,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -967,7 +969,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         color: FlutterFlowTheme.of(context)
                                             .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               color:
@@ -975,6 +977,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       .primaryBtnText,
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -1082,7 +1085,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1137,7 +1140,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1164,7 +1167,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                       Container(
                         width: MediaQuery.of(context).size.width * 2.0,
                         decoration: BoxDecoration(
-                          color: FlutterFlowTheme.of(context).primaryColor,
+                          color: FlutterFlowTheme.of(context).primary,
                         ),
                         child: Column(
                           mainAxisSize: MainAxisSize.max,
@@ -1204,11 +1207,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       color:
                                           FlutterFlowTheme.of(context).blueText,
                                       textStyle: FlutterFlowTheme.of(context)
-                                          .subtitle2
+                                          .titleSmall
                                           .override(
                                             fontFamily: 'Lora',
                                             color: Colors.white,
                                           ),
+                                      elevation: 2.0,
                                       borderSide: BorderSide(
                                         color: Colors.transparent,
                                         width: 1.0,
@@ -1232,11 +1236,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       color:
                                           FlutterFlowTheme.of(context).blueText,
                                       textStyle: FlutterFlowTheme.of(context)
-                                          .subtitle2
+                                          .titleSmall
                                           .override(
                                             fontFamily: 'Lora',
                                             color: Colors.white,
                                           ),
+                                      elevation: 2.0,
                                       borderSide: BorderSide(
                                         color: Colors.transparent,
                                         width: 1.0,
@@ -1258,8 +1263,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     child: Text(
                                       'Собственная\nобжарка кофе',
                                       textAlign: TextAlign.center,
-                                      style:
-                                          FlutterFlowTheme.of(context).title1,
+                                      style: FlutterFlowTheme.of(context)
+                                          .displaySmall,
                                     ),
                                   ),
                                 ),
@@ -1284,11 +1289,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         color: FlutterFlowTheme.of(context)
                                             .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle2
+                                            .titleSmall
                                             .override(
                                               fontFamily: 'Lora',
                                               color: Colors.white,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -1310,7 +1316,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         child: Text(
                           'Выберите нужную категорию',
                           style: FlutterFlowTheme.of(context)
-                              .bodyText1
+                              .bodyMedium
                               .override(
                                 fontFamily: 'Poppins',
                                 color:
@@ -1325,7 +1331,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         child: Text(
                           'Категории товаров',
                           textAlign: TextAlign.center,
-                          style: FlutterFlowTheme.of(context).title2.override(
+                          style: FlutterFlowTheme.of(context)
+                              .headlineMedium
+                              .override(
                                 fontFamily: 'Poppins',
                                 color: Color(0xFF110011),
                                 fontSize: 36.0,
@@ -1365,7 +1373,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   Text(
                                     'Фильтр',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 18.0,
@@ -1399,7 +1407,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   Text(
                                     'Эспрессо',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 18.0,
@@ -1433,7 +1441,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   Text(
                                     'Подарки',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 18.0,
@@ -1467,7 +1475,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   Text(
                                     'Дрипы',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 18.0,
@@ -1512,7 +1520,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   Text(
                                     'Какао',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 18.0,
@@ -1546,7 +1554,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   Text(
                                     'Капсулы',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 18.0,
@@ -1580,7 +1588,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   Text(
                                     'Чай',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 18.0,
@@ -1614,7 +1622,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   Text(
                                     'Другое',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 18.0,
@@ -1635,7 +1643,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         child: Text(
                           'Мы рекомендуем',
                           style: FlutterFlowTheme.of(context)
-                              .bodyText1
+                              .bodyMedium
                               .override(
                                 fontFamily: 'Poppins',
                                 color:
@@ -1647,7 +1655,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                       Text(
                         'Самые популярные товары',
                         textAlign: TextAlign.center,
-                        style: FlutterFlowTheme.of(context).title2.override(
+                        style: FlutterFlowTheme.of(context)
+                            .headlineMedium
+                            .override(
                               fontFamily: 'Poppins',
                               color: Color(0xFF110011),
                               fontSize: 36.0,
@@ -1763,7 +1773,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                 '-13%',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -1842,7 +1852,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         'Гватемала Сан Себастьян\n 1 кг',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 14.0,
@@ -1860,7 +1870,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           'Аэроэкспресс, Гейзер, Иммерсия, Турка, Фильтр-машина',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -1881,7 +1891,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               '1 500 ₽',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
@@ -1897,7 +1907,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           Text(
                                             '1 300 ₽',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -1924,7 +1934,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                             'ВЫБЕРИТЕ \nПАРАМЕТРЫ',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: FlutterFlowTheme.of(
@@ -2015,7 +2025,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                               '-13%',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -2092,7 +2102,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         'Гватемала Сан Себастьян\n 1 кг',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 14.0,
@@ -2110,7 +2120,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           'Аэроэкспресс, Гейзер, Иммерсия, Турка, Фильтр-машина',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -2131,7 +2141,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               '1 500 ₽',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
@@ -2147,7 +2157,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           Text(
                                             '1 300 ₽',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -2174,7 +2184,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                             'ВЫБЕРИТЕ \nПАРАМЕТРЫ',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: FlutterFlowTheme.of(
@@ -2276,7 +2286,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                               '-13%',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -2353,7 +2363,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         'Гватемала Сан Себастьян\n 1 кг',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 14.0,
@@ -2371,7 +2381,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           'Аэроэкспресс, Гейзер, Иммерсия, Турка, Фильтр-машина',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -2392,7 +2402,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               '1 500 ₽',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
@@ -2408,7 +2418,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           Text(
                                             '1 300 ₽',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -2435,7 +2445,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                             'ВЫБЕРИТЕ \nПАРАМЕТРЫ',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: FlutterFlowTheme.of(
@@ -2526,7 +2536,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                               '-13%',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -2603,7 +2613,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         'Гватемала Сан Себастьян\n 1 кг',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 14.0,
@@ -2621,7 +2631,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           'Аэроэкспресс, Гейзер, Иммерсия, Турка, Фильтр-машина',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -2642,7 +2652,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               '1 500 ₽',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
@@ -2658,7 +2668,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           Text(
                                             '1 300 ₽',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -2685,7 +2695,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                             'ВЫБЕРИТЕ \nПАРАМЕТРЫ',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: FlutterFlowTheme.of(
@@ -2710,7 +2720,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         child: Container(
                           width: MediaQuery.of(context).size.width * 1.0,
                           decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context).primaryColor,
+                            color: FlutterFlowTheme.of(context).primary,
                           ),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
@@ -2731,7 +2741,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 child: Text(
                                   'Мы обжариваем на лучшем в мире оборудовании:',
                                   style: FlutterFlowTheme.of(context)
-                                      .bodyText1
+                                      .bodyMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         fontSize: 18.0,
@@ -2758,8 +2768,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               Container(
                                 width: MediaQuery.of(context).size.width * 1.0,
                                 decoration: BoxDecoration(
-                                  color:
-                                      FlutterFlowTheme.of(context).primaryColor,
+                                  color: FlutterFlowTheme.of(context).primary,
                                 ),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
@@ -2777,7 +2786,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           child: Text(
                                             'В реальном времени отслеживаем параметры на протяжении всего цикла обжарки',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   fontSize: 18.0,
@@ -2814,7 +2823,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         width: 100.0,
                                         decoration: BoxDecoration(
                                           color: FlutterFlowTheme.of(context)
-                                              .primaryColor,
+                                              .primary,
                                         ),
                                         child: Padding(
                                           padding:
@@ -2823,7 +2832,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           child: Text(
                                             'Мы – официальные дистрибьюторы Roest по России и СНГ',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   fontSize: 18.0,
@@ -2854,14 +2863,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     0.0, 0.0, 0.0, 30.0),
                                 child: Text(
                                   'Мы – команда чемпионов:',
-                                  style: FlutterFlowTheme.of(context).title3,
+                                  style: FlutterFlowTheme.of(context)
+                                      .headlineSmall,
                                 ),
                               ),
                               Container(
                                 width: MediaQuery.of(context).size.width * 1.0,
                                 decoration: BoxDecoration(
-                                  color:
-                                      FlutterFlowTheme.of(context).primaryColor,
+                                  color: FlutterFlowTheme.of(context).primary,
                                 ),
                                 child: Column(
                                   mainAxisSize: MainAxisSize.min,
@@ -2885,7 +2894,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         Text(
                                           'Чемпион мира по джезве 2019',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 fontSize: 20.0,
@@ -2911,7 +2920,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         Text(
                                           'Чемпион России по обжарке \n2021',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 fontSize: 20.0,
@@ -2937,7 +2946,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         Text(
                                           'Обжарщик года 2020',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 fontSize: 20.0,
@@ -2963,7 +2972,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         Text(
                                           'AST-тренер',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 fontSize: 20.0,
@@ -2989,7 +2998,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         Text(
                                           'Q-грейдеры',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 fontSize: 20.0,
@@ -3015,7 +3024,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         Text(
                                           'Национальные судьи \nчемпионатов',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 fontSize: 20.0,
@@ -3042,7 +3051,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   'Уникальные кофейные лоты\nПроводим эксперименты с обработкой в Гватемале и Колумбии.\n\nСовсем скоро стартуют проекты в Гондурасе, Коста-Рике, Бразилии и Эфиопии.\n\nМы всегда можем удивить Вас особенным кофе!',
                                   textAlign: TextAlign.start,
                                   style: FlutterFlowTheme.of(context)
-                                      .bodyText1
+                                      .bodyMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         fontSize: 18.0,
@@ -3062,7 +3071,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             child: Text(
                               'Наш блог',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color: FlutterFlowTheme.of(context)
@@ -3073,7 +3082,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                           Text(
                             'Статьи о кофе',
-                            style: FlutterFlowTheme.of(context).title1,
+                            style: FlutterFlowTheme.of(context).displaySmall,
                           ),
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
@@ -3082,7 +3091,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               'В располагающей дружественной обстановке, Вы так же сможете понаблюдать за процессом обжаривания кофейных зёрен.',
                               textAlign: TextAlign.center,
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 15.0,
@@ -3173,7 +3182,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                   '02',
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
-                                                                      .bodyText1
+                                                                      .bodyMedium
                                                                       .override(
                                                                         fontFamily:
                                                                             'Poppins',
@@ -3185,7 +3194,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                   'ФЕВ',
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
-                                                                      .bodyText1
+                                                                      .bodyMedium
                                                                       .override(
                                                                         fontFamily:
                                                                             'Poppins',
@@ -3212,7 +3221,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
-                                                              .subtitle2
+                                                              .titleSmall
                                                               .override(
                                                                 fontFamily:
                                                                     'Lora',
@@ -3235,7 +3244,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
-                                                              .bodyText1,
+                                                              .bodyMedium,
                                                     ),
                                                   ),
                                                   Padding(
@@ -3250,7 +3259,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -3322,7 +3331,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                   '02',
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
-                                                                      .bodyText1
+                                                                      .bodyMedium
                                                                       .override(
                                                                         fontFamily:
                                                                             'Poppins',
@@ -3334,7 +3343,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                   'ФЕВ',
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
-                                                                      .bodyText1
+                                                                      .bodyMedium
                                                                       .override(
                                                                         fontFamily:
                                                                             'Poppins',
@@ -3361,7 +3370,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
-                                                              .subtitle2
+                                                              .titleSmall
                                                               .override(
                                                                 fontFamily:
                                                                     'Lora',
@@ -3384,7 +3393,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
-                                                              .bodyText1,
+                                                              .bodyMedium,
                                                     ),
                                                   ),
                                                   Padding(
@@ -3399,7 +3408,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -3471,7 +3480,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                   '02',
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
-                                                                      .bodyText1
+                                                                      .bodyMedium
                                                                       .override(
                                                                         fontFamily:
                                                                             'Poppins',
@@ -3483,7 +3492,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                   'ФЕВ',
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
-                                                                      .bodyText1
+                                                                      .bodyMedium
                                                                       .override(
                                                                         fontFamily:
                                                                             'Poppins',
@@ -3510,7 +3519,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
-                                                              .subtitle2
+                                                              .titleSmall
                                                               .override(
                                                                 fontFamily:
                                                                     'Lora',
@@ -3533,7 +3542,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
-                                                              .bodyText1,
+                                                              .bodyMedium,
                                                     ),
                                                   ),
                                                   Padding(
@@ -3548,7 +3557,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -3622,7 +3631,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         child: Container(
                           width: MediaQuery.of(context).size.width * 1.0,
                           decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context).primaryColor,
+                            color: FlutterFlowTheme.of(context).primary,
                           ),
                           child: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
@@ -3637,7 +3646,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   child: Text(
                                     'Наш принцип',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
@@ -3651,7 +3660,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   child: Text(
                                     'Кофе для кофеен,\nкак для себя',
                                     style: FlutterFlowTheme.of(context)
-                                        .title3
+                                        .headlineSmall
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 27.0,
@@ -3664,7 +3673,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   child: Text(
                                     'Проводим эксперименты с обработкой в Гватемале и Колумбии. Совсем скоро стартуют проекты в Гондурасе, Коста-Рике, Бразилии и Эфиопии.Мы всегда можем удивить Вас особенным кофе!',
                                     style: FlutterFlowTheme.of(context)
-                                        .subtitle1
+                                        .titleMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 18.0,
@@ -3692,7 +3701,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           child: Text(
                                             'Мы готовы предложить оптовые цены при работе с юридическими лицами (офисы, кафе, пекарни, гостиницы, рестораны).',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1,
+                                                .bodyMedium,
                                           ),
                                         ),
                                       ),
@@ -3720,7 +3729,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           child: Text(
                                             'Накопительная скидка для розничных клиентов на сайте не распространяется на покупателей – юридических лиц.',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1,
+                                                .bodyMedium,
                                           ),
                                         ),
                                       ),
@@ -3749,7 +3758,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 child: Text(
                                   'ORIENT',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -3764,7 +3773,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -3778,7 +3787,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 child: Text(
                                   'Для клиентов',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -3793,7 +3802,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   'Вход/регистрация\nЛичный кабинет\nСтатус заказа',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -3807,7 +3816,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 child: Text(
                                   'О нас',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -3822,7 +3831,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   'О нас\nОПТ\nДоставка',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -3836,7 +3845,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 child: Text(
                                   'Блог о кофе',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -3851,7 +3860,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   'Рецепты\nЭнциклопедия кофе',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),

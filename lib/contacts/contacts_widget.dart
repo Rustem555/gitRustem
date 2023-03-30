@@ -90,7 +90,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             child: Text(
                               'КАТАЛОГ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -130,7 +130,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             child: Text(
                               'ОПТ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -170,7 +170,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             child: Text(
                               'РЕЦЕПТЫ ЗАВАРИВАНИЯ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -212,7 +212,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             child: Text(
                               'ЭНЦИКЛОПЕДИЯ КОФЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -254,7 +254,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             child: Text(
                               'ДОСТАВКА',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -294,7 +294,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             child: Text(
                               'КОНТАКТЫ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -343,7 +343,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             child: Text(
                               'ИЗБРАННОЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -378,12 +378,13 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                               5.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'ВХОД/РЕГИСТРАЦИЯ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -442,7 +443,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                       child: Text(
                                         'КОРЗИНА',
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 24.0,
@@ -474,7 +475,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                           child: Text(
                                             'ЗАКРЫТЬ',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -561,7 +562,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -583,7 +584,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -613,7 +614,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -639,13 +640,13 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -734,7 +735,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -756,7 +757,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -786,7 +787,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -812,13 +813,13 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -867,7 +868,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                 0.0, 15.0, 0.0, 0.0),
                             child: Text(
                               'КОРЗИНА ПУСТА',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                           ),
                           Padding(
@@ -886,7 +887,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                   child: Text(
                                     'ВЕРНУТЬСЯ В МАГАЗИН',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
@@ -941,9 +942,9 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.network(
-                          '',
-                          width: 25.0,
+                        child: Image.asset(
+                          'assets/images/loon-icon_(10).png',
+                          width: 35.0,
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -1015,7 +1016,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1070,7 +1071,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1107,7 +1108,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                               child: Text(
                                 'НАШИ КОНТАКТЫ',
                                 style: FlutterFlowTheme.of(context)
-                                    .bodyText1
+                                    .bodyMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       fontSize: 33.0,
@@ -1125,7 +1126,9 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             15.0, 50.0, 15.0, 0.0),
                         child: Text(
                           'Краснодар',
-                          style: FlutterFlowTheme.of(context).title3.override(
+                          style: FlutterFlowTheme.of(context)
+                              .headlineSmall
+                              .override(
                                 fontFamily: 'Poppins',
                                 fontWeight: FontWeight.bold,
                               ),
@@ -1136,7 +1139,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             15.0, 20.0, 15.0, 30.0),
                         child: Text(
                           'ул. Красная, 123',
-                          style: FlutterFlowTheme.of(context).bodyText1,
+                          style: FlutterFlowTheme.of(context).bodyMedium,
                         ),
                       ),
                       Divider(
@@ -1151,7 +1154,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             Text(
                               'Email: ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontWeight: FontWeight.bold,
@@ -1159,7 +1162,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             ),
                             Text(
                               ' info@orient',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                           ],
                         ),
@@ -1173,7 +1176,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             Text(
                               'Phone: ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontWeight: FontWeight.bold,
@@ -1181,7 +1184,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                             ),
                             Text(
                               '8 800 000-00-00',
-                              style: FlutterFlowTheme.of(context).bodyText1,
+                              style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
                           ],
                         ),
@@ -1259,7 +1262,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                               child: Text(
                                 'ORIENT',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1274,7 +1277,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                 'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1288,7 +1291,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                               child: Text(
                                 'Для клиентов',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1303,7 +1306,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                 'Вход/регистрация\nЛичный кабинет\nСтатус заказа',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1317,7 +1320,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                               child: Text(
                                 'О нас',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1332,7 +1335,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                 'О нас\nОПТ\nДоставка',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1346,7 +1349,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                               child: Text(
                                 'Блог о кофе',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -1361,7 +1364,7 @@ class _ContactsWidgetState extends State<ContactsWidget> {
                                 'Рецепты\nЭнциклопедия кофе',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),

@@ -91,7 +91,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                             child: Text(
                               'КАТАЛОГ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -131,7 +131,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                             child: Text(
                               'ОПТ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -171,7 +171,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                             child: Text(
                               'РЕЦЕПТЫ ЗАВАРИВАНИЯ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -213,7 +213,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                             child: Text(
                               'ЭНЦИКЛОПЕДИЯ КОФЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -255,7 +255,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                             child: Text(
                               'ДОСТАВКА',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -295,7 +295,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                             child: Text(
                               'КОНТАКТЫ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -344,7 +344,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                             child: Text(
                               'ИЗБРАННОЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -379,12 +379,13 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                               5.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'ВХОД/РЕГИСТРАЦИЯ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -443,7 +444,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                       child: Text(
                                         'КОРЗИНА',
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 24.0,
@@ -475,7 +476,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                           child: Text(
                                             'ЗАКРЫТЬ',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -562,7 +563,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -584,7 +585,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -614,7 +615,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -640,13 +641,13 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -735,7 +736,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -757,7 +758,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -787,7 +788,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -813,13 +814,13 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -882,7 +883,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                   child: Text(
                                     'ПОДЫТОГ:',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 22.0,
@@ -896,11 +897,11 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                   child: Text(
                                     '2 600 ₽',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
-                                              .secondaryColor,
+                                              .secondary,
                                           fontSize: 22.0,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -932,11 +933,12 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -965,7 +967,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                         color: FlutterFlowTheme.of(context)
                                             .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               color:
@@ -973,6 +975,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                       .primaryBtnText,
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -1020,9 +1023,9 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.network(
-                          '',
-                          width: 25.0,
+                        child: Image.asset(
+                          'assets/images/loon-icon_(10).png',
+                          width: 35.0,
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -1094,7 +1097,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1149,7 +1152,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1272,7 +1275,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                     'БЕЗ РУБРИКИ',
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           color: FlutterFlowTheme
@@ -1316,7 +1319,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                     '02',
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           fontSize: 26.0,
@@ -1328,7 +1331,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                     'ФЕВ',
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           fontWeight:
@@ -1350,7 +1353,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                       'Приготовление кофе в кофемашине',
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
-                                          .subtitle2
+                                          .titleSmall
                                           .override(
                                             fontFamily: 'Lora',
                                             color: FlutterFlowTheme.of(context)
@@ -1382,7 +1385,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                             'Zazulya',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .subtitle2
+                                                .titleSmall
                                                 .override(
                                                   fontFamily: 'Lora',
                                                   color: FlutterFlowTheme.of(
@@ -1420,7 +1423,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                     '0',
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           color: FlutterFlowTheme
@@ -1444,23 +1447,40 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                       'Покупая кофемашину, большинство людей получают к ней инстр...',
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1,
+                                          .bodyMedium,
                                     ),
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 15.0, 0.0, 0.0),
-                                    child: Text(
-                                      'ПРОДОЛЖИТЬ ЧТЕНИЕ',
-                                      textAlign: TextAlign.center,
-                                      style: FlutterFlowTheme.of(context)
-                                          .bodyText1
-                                          .override(
-                                            fontFamily: 'Poppins',
-                                            color: FlutterFlowTheme.of(context)
-                                                .blueText,
-                                            fontWeight: FontWeight.bold,
-                                          ),
+                                    child: InkWell(
+                                      onTap: () async {
+                                        context.pushNamed(
+                                          'Recipes',
+                                          extra: <String, dynamic>{
+                                            kTransitionInfoKey: TransitionInfo(
+                                              hasTransition: true,
+                                              transitionType:
+                                                  PageTransitionType.fade,
+                                              duration:
+                                                  Duration(milliseconds: 800),
+                                            ),
+                                          },
+                                        );
+                                      },
+                                      child: Text(
+                                        'ПРОДОЛЖИТЬ ЧТЕНИЕ',
+                                        textAlign: TextAlign.center,
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .override(
+                                              fontFamily: 'Poppins',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .blueText,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
                                     ),
                                   ),
                                 ],
@@ -1538,7 +1558,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                     'БЕЗ РУБРИКИ',
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           color: FlutterFlowTheme
@@ -1582,7 +1602,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                     '02',
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           fontSize: 26.0,
@@ -1594,7 +1614,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                     'ФЕВ',
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           fontWeight:
@@ -1616,7 +1636,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                       'Как сварить кофе в гейзерной кофеварке – подробная инструкция',
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
-                                          .subtitle2
+                                          .titleSmall
                                           .override(
                                             fontFamily: 'Lora',
                                             color: FlutterFlowTheme.of(context)
@@ -1648,7 +1668,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                             'Zazulya',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .subtitle2
+                                                .titleSmall
                                                 .override(
                                                   fontFamily: 'Lora',
                                                   color: FlutterFlowTheme.of(
@@ -1686,7 +1706,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                     '0',
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           color: FlutterFlowTheme
@@ -1710,23 +1730,40 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                       'Гейзерная кофеварка (она же мока) покорила сердца людей по всему миру своей простотой, удобством и качеством гото...',
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1,
+                                          .bodyMedium,
                                     ),
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 15.0, 0.0, 0.0),
-                                    child: Text(
-                                      'ПРОДОЛЖИТЬ ЧТЕНИЕ',
-                                      textAlign: TextAlign.center,
-                                      style: FlutterFlowTheme.of(context)
-                                          .bodyText1
-                                          .override(
-                                            fontFamily: 'Poppins',
-                                            color: FlutterFlowTheme.of(context)
-                                                .blueText,
-                                            fontWeight: FontWeight.bold,
-                                          ),
+                                    child: InkWell(
+                                      onTap: () async {
+                                        context.pushNamed(
+                                          'Recipes',
+                                          extra: <String, dynamic>{
+                                            kTransitionInfoKey: TransitionInfo(
+                                              hasTransition: true,
+                                              transitionType:
+                                                  PageTransitionType.fade,
+                                              duration:
+                                                  Duration(milliseconds: 800),
+                                            ),
+                                          },
+                                        );
+                                      },
+                                      child: Text(
+                                        'ПРОДОЛЖИТЬ ЧТЕНИЕ',
+                                        textAlign: TextAlign.center,
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .override(
+                                              fontFamily: 'Poppins',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .blueText,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
                                     ),
                                   ),
                                 ],
@@ -1804,7 +1841,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                     'БЕЗ РУБРИКИ',
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           color: FlutterFlowTheme
@@ -1848,7 +1885,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                     '02',
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           fontSize: 26.0,
@@ -1860,7 +1897,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                     'ФЕВ',
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           fontWeight:
@@ -1882,7 +1919,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                       'Как варить кофе в турке',
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
-                                          .subtitle2
+                                          .titleSmall
                                           .override(
                                             fontFamily: 'Lora',
                                             color: FlutterFlowTheme.of(context)
@@ -1914,7 +1951,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                             'Zazulya',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .subtitle2
+                                                .titleSmall
                                                 .override(
                                                   fontFamily: 'Lora',
                                                   color: FlutterFlowTheme.of(
@@ -1952,7 +1989,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                                     '0',
                                                     style: FlutterFlowTheme.of(
                                                             context)
-                                                        .bodyText1
+                                                        .bodyMedium
                                                         .override(
                                                           fontFamily: 'Poppins',
                                                           color: FlutterFlowTheme
@@ -1976,23 +2013,40 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                       'Кофе по праву носит имя самого старейшего напитка на нашей планете. Нам известно огромное количество рецептов и м...',
                                       textAlign: TextAlign.center,
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1,
+                                          .bodyMedium,
                                     ),
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 15.0, 0.0, 0.0),
-                                    child: Text(
-                                      'ПРОДОЛЖИТЬ ЧТЕНИЕ',
-                                      textAlign: TextAlign.center,
-                                      style: FlutterFlowTheme.of(context)
-                                          .bodyText1
-                                          .override(
-                                            fontFamily: 'Poppins',
-                                            color: FlutterFlowTheme.of(context)
-                                                .blueText,
-                                            fontWeight: FontWeight.bold,
-                                          ),
+                                    child: InkWell(
+                                      onTap: () async {
+                                        context.pushNamed(
+                                          'Recipes',
+                                          extra: <String, dynamic>{
+                                            kTransitionInfoKey: TransitionInfo(
+                                              hasTransition: true,
+                                              transitionType:
+                                                  PageTransitionType.fade,
+                                              duration:
+                                                  Duration(milliseconds: 800),
+                                            ),
+                                          },
+                                        );
+                                      },
+                                      child: Text(
+                                        'ПРОДОЛЖИТЬ ЧТЕНИЕ',
+                                        textAlign: TextAlign.center,
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .override(
+                                              fontFamily: 'Poppins',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .blueText,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
                                     ),
                                   ),
                                 ],
@@ -2015,7 +2069,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                               child: Text(
                                 'ORIENT',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2030,7 +2084,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                 'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2044,7 +2098,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                               child: Text(
                                 'Для клиентов',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2059,7 +2113,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                 'Вход/регистрация\nЛичный кабинет\nСтатус заказа',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2073,7 +2127,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                               child: Text(
                                 'О нас',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2088,7 +2142,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                 'О нас\nОПТ\nДоставка',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2102,7 +2156,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                               child: Text(
                                 'Блог о кофе',
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),
@@ -2117,7 +2171,7 @@ class _RecipesCatalogWidgetState extends State<RecipesCatalogWidget> {
                                 'Рецепты\nЭнциклопедия кофе',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
-                                    .title2
+                                    .headlineMedium
                                     .override(
                                       fontFamily: 'Poppins',
                                       color: Color(0xFF110011),

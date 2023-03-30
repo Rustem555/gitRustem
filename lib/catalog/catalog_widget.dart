@@ -79,12 +79,13 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                               19.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'КАТАЛОГ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -118,7 +119,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                             child: Text(
                               'ОПТ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -158,7 +159,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                             child: Text(
                               'РЕЦЕПТЫ ЗАВАРИВАНИЯ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -200,7 +201,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                             child: Text(
                               'ЭНЦИКЛОПЕДИЯ КОФЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     color:
@@ -242,7 +243,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                             child: Text(
                               'ДОСТАВКА',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -282,7 +283,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                             child: Text(
                               'КОНТАКТЫ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -331,7 +332,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                             child: Text(
                               'ИЗБРАННОЕ',
                               style: FlutterFlowTheme.of(context)
-                                  .bodyText1
+                                  .bodyMedium
                                   .override(
                                     fontFamily: 'Poppins',
                                     fontSize: 13.0,
@@ -366,12 +367,13 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                               5.0, 0.0, 0.0, 0.0),
                           child: Text(
                             'ВХОД/РЕГИСТРАЦИЯ',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 13.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  fontSize: 13.0,
+                                  fontWeight: FontWeight.w600,
+                                ),
                           ),
                         ),
                       ],
@@ -430,7 +432,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                       child: Text(
                                         'КОРЗИНА',
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 24.0,
@@ -462,7 +464,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                           child: Text(
                                             'ЗАКРЫТЬ',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -549,7 +551,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -571,7 +573,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -601,7 +603,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -627,13 +629,13 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -722,7 +724,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                           'ГВАТЕМАЛА Сан Себастьян 1 кг',
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -744,7 +746,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                               TextAlign.start,
                                                           style: FlutterFlowTheme
                                                                   .of(context)
-                                                              .bodyText1
+                                                              .bodyMedium
                                                               .override(
                                                                 fontFamily:
                                                                     'Poppins',
@@ -774,7 +776,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                                         .start,
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -800,13 +802,13 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                                 '1 300 ₽',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
-                                                                          .secondaryColor,
+                                                                          .secondary,
                                                                       fontWeight:
                                                                           FontWeight
                                                                               .bold,
@@ -869,7 +871,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                   child: Text(
                                     'ПОДЫТОГ:',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           fontSize: 22.0,
@@ -883,11 +885,11 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                   child: Text(
                                     '2 600 ₽',
                                     style: FlutterFlowTheme.of(context)
-                                        .bodyText1
+                                        .bodyMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: FlutterFlowTheme.of(context)
-                                              .secondaryColor,
+                                              .secondary,
                                           fontSize: 22.0,
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -919,11 +921,12 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                 0.0, 0.0, 0.0, 0.0),
                                         color: Color(0xFFE0E3E7),
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -952,7 +955,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                         color: FlutterFlowTheme.of(context)
                                             .blueText,
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .subtitle1
+                                            .titleMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               color:
@@ -960,6 +963,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                       .primaryBtnText,
                                               fontSize: 13.0,
                                             ),
+                                        elevation: 2.0,
                                         borderSide: BorderSide(
                                           color: Colors.transparent,
                                           width: 1.0,
@@ -1007,9 +1011,9 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                         onTap: () async {
                           scaffoldKey.currentState!.openDrawer();
                         },
-                        child: Image.network(
-                          '',
-                          width: 25.0,
+                        child: Image.asset(
+                          'assets/images/loon-icon_(10).png',
+                          width: 35.0,
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -1081,7 +1085,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1136,7 +1140,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                     child: Text(
                                       '2',
                                       style: FlutterFlowTheme.of(context)
-                                          .bodyText1
+                                          .bodyMedium
                                           .override(
                                             fontFamily: 'Poppins',
                                             color: FlutterFlowTheme.of(context)
@@ -1177,7 +1181,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                     'Главная /',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
-                                        .title2
+                                        .headlineMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: Color(0xFF110011),
@@ -1193,7 +1197,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                     'Магазин',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
-                                        .title2
+                                        .headlineMedium
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: Color(0xFF110011),
@@ -1213,12 +1217,13 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                   child: Text(
                                     'Представлено',
                                     style:
-                                        FlutterFlowTheme.of(context).bodyText1,
+                                        FlutterFlowTheme.of(context).bodyMedium,
                                   ),
                                 ),
                                 Text(
                                   '6',
-                                  style: FlutterFlowTheme.of(context).bodyText1,
+                                  style:
+                                      FlutterFlowTheme.of(context).bodyMedium,
                                 ),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
@@ -1226,7 +1231,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                   child: Text(
                                     'товаров',
                                     style:
-                                        FlutterFlowTheme.of(context).bodyText1,
+                                        FlutterFlowTheme.of(context).bodyMedium,
                                   ),
                                 ),
                               ],
@@ -1244,32 +1249,36 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Row(
-                              mainAxisSize: MainAxisSize.max,
-                              children: [
-                                Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      10.0, 0.0, 10.0, 0.0),
-                                  child: Image.network(
-                                    '',
-                                    width: MediaQuery.of(context).size.width *
-                                        0.06,
-                                    fit: BoxFit.cover,
+                            InkWell(
+                              onTap: () async {
+                                scaffoldKey.currentState!.openDrawer();
+                              },
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        10.0, 0.0, 10.0, 0.0),
+                                    child: Image.asset(
+                                      'assets/images/loon-icon_(10).png',
+                                      width: 35.0,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
-                                ),
-                                Text(
-                                  'Показать боковую панель',
-                                  textAlign: TextAlign.center,
-                                  style: FlutterFlowTheme.of(context)
-                                      .title2
-                                      .override(
-                                        fontFamily: 'Poppins',
-                                        color: Color(0xFF110011),
-                                        fontSize: 17.0,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                ),
-                              ],
+                                  Text(
+                                    'Показать боковую панель',
+                                    textAlign: TextAlign.center,
+                                    style: FlutterFlowTheme.of(context)
+                                        .headlineMedium
+                                        .override(
+                                          fontFamily: 'Poppins',
+                                          color: Color(0xFF110011),
+                                          fontSize: 17.0,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                  ),
+                                ],
+                              ),
                             ),
                             Row(
                               mainAxisSize: MainAxisSize.max,
@@ -1281,6 +1290,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                     onTap: () async {
                                       await showModalBottomSheet(
                                         isScrollControlled: true,
+                                        backgroundColor: Colors.white,
                                         enableDrag: false,
                                         context: context,
                                         builder: (context) {
@@ -1419,7 +1429,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                                 '-13%',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .bodyText1
+                                                                    .bodyMedium
                                                                     .override(
                                                                       fontFamily:
                                                                           'Poppins',
@@ -1498,7 +1508,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                         'Гватемала Сан Себастьян\n 1 кг',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 14.0,
@@ -1516,7 +1526,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                           'Аэроэкспресс, Гейзер, Иммерсия, Турка, Фильтр-машина',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -1537,7 +1547,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                               '1 500 ₽',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
@@ -1553,7 +1563,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                           Text(
                                             '1 300 ₽',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -1566,6 +1576,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                         onTap: () async {
                                           await showModalBottomSheet(
                                             isScrollControlled: true,
+                                            backgroundColor: Colors.white,
                                             enableDrag: false,
                                             context: context,
                                             builder: (context) {
@@ -1604,7 +1615,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                               textAlign: TextAlign.center,
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
@@ -1697,7 +1708,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                               '-13%',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -1774,7 +1785,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                         'Гватемала Сан Себастьян\n 1 кг',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 14.0,
@@ -1792,7 +1803,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                           'Аэроэкспресс, Гейзер, Иммерсия, Турка, Фильтр-машина',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -1813,7 +1824,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                               '1 500 ₽',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
@@ -1829,7 +1840,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                           Text(
                                             '1 300 ₽',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -1856,7 +1867,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                             'ВЫБЕРИТЕ \nПАРАМЕТРЫ',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: FlutterFlowTheme.of(
@@ -1958,7 +1969,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                               '-13%',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -2035,7 +2046,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                         'Гватемала Сан Себастьян\n 1 кг',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 14.0,
@@ -2053,7 +2064,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                           'Аэроэкспресс, Гейзер, Иммерсия, Турка, Фильтр-машина',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -2074,7 +2085,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                               '1 500 ₽',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
@@ -2090,7 +2101,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                           Text(
                                             '1 300 ₽',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -2117,7 +2128,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                             'ВЫБЕРИТЕ \nПАРАМЕТРЫ',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: FlutterFlowTheme.of(
@@ -2208,7 +2219,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                                               '-13%',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
-                                                                  .bodyText1
+                                                                  .bodyMedium
                                                                   .override(
                                                                     fontFamily:
                                                                         'Poppins',
@@ -2285,7 +2296,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                         'Гватемала Сан Себастьян\n 1 кг',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
-                                            .bodyText1
+                                            .bodyMedium
                                             .override(
                                               fontFamily: 'Poppins',
                                               fontSize: 14.0,
@@ -2303,7 +2314,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                           'Аэроэкспресс, Гейзер, Иммерсия, Турка, Фильтр-машина',
                                           textAlign: TextAlign.center,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
+                                              .bodyMedium
                                               .override(
                                                 fontFamily: 'Poppins',
                                                 color:
@@ -2324,7 +2335,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                               '1 500 ₽',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1
+                                                      .bodyMedium
                                                       .override(
                                                         fontFamily: 'Poppins',
                                                         color:
@@ -2340,7 +2351,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                           Text(
                                             '1 300 ₽',
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: Color(0xFF110011),
@@ -2367,7 +2378,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                             'ВЫБЕРИТЕ \nПАРАМЕТРЫ',
                                             textAlign: TextAlign.center,
                                             style: FlutterFlowTheme.of(context)
-                                                .bodyText1
+                                                .bodyMedium
                                                 .override(
                                                   fontFamily: 'Poppins',
                                                   color: FlutterFlowTheme.of(
@@ -2403,7 +2414,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                 child: Text(
                                   'ORIENT',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -2418,7 +2429,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                   'Мы профессионально занимаемся обжаркой и предоставляем услуги по улучшению качества обслуживания.',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -2432,7 +2443,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                 child: Text(
                                   'Для клиентов',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -2447,7 +2458,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                   'Вход/регистрация\nЛичный кабинет\nСтатус заказа',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -2461,7 +2472,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                 child: Text(
                                   'О нас',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -2476,7 +2487,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                   'О нас\nОПТ\nДоставка',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -2490,7 +2501,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                 child: Text(
                                   'Блог о кофе',
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
@@ -2505,7 +2516,7 @@ class _CatalogWidgetState extends State<CatalogWidget> {
                                   'Рецепты\nЭнциклопедия кофе',
                                   textAlign: TextAlign.center,
                                   style: FlutterFlowTheme.of(context)
-                                      .title2
+                                      .headlineMedium
                                       .override(
                                         fontFamily: 'Poppins',
                                         color: Color(0xFF110011),
